@@ -94,7 +94,7 @@ public sealed class BloodstreamSystem : EntitySystem
             if (bloodstream.BloodSolution.Volume < bloodstream.BloodSolution.MaxVolume && _mobStateSystem.IsAlive(uid))
                 TryModifyBloodLevel(uid, bloodstream.BloodRefreshAmount, bloodstream);
 
-            // Removes blood from the bloodstream based on bleed amount (bleed rate)
+            // Next, let's remove some blood from them according to their bleed level.
             // as well as stop their bleeding to a certain extent.
             if (bloodstream.BleedAmount > 0)
             {
@@ -104,11 +104,11 @@ public sealed class BloodstreamSystem : EntitySystem
                 TryModifyBleedAmount(uid, -bloodstream.BleedReductionAmount, bloodstream);
             }
 
-            // deal bloodloss damage if their blood level is below a threshold.
+            // Next, we'll deal some bloodloss damage if their blood level is below a threshold.
             var bloodPercentage = GetBloodLevelPercentage(uid, bloodstream);
             if (bloodPercentage < bloodstream.BloodlossThreshold && _mobStateSystem.IsAlive(uid))
             {
-                // bloodloss damage is based on the base value, and modified by how low your blood level is.
+                // TODO use a better method for determining this.
                 var amt = bloodstream.BloodlossDamage / (0.1f + bloodPercentage);
 
                 _damageableSystem.TryChangeDamage(uid, amt, true, false);
@@ -126,13 +126,13 @@ public sealed class BloodstreamSystem : EntitySystem
             {
                 // If they're healthy, we'll try and heal some bloodloss instead.
                 _damageableSystem.TryChangeDamage(uid, bloodstream.BloodlossHealDamage * bloodPercentage, true, false);
-
+                
                 // Remove the drunk effect when healthy. Should only remove the amount of drunk added by low blood level
                 _drunkSystem.TryRemoveDrunkenessTime(uid, bloodstream.DrunkTime);
                 // Reset the drunk time to zero
                 bloodstream.DrunkTime = 0;
 
-            }
+           }
         }
     }
 
