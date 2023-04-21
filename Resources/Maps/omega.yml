@@ -40053,43 +40053,102 @@ entities:
     parent: 0
     type: Transform
 - uid: 4809
-  type: GunSafeRifleLecter
+  type: WindowReinforcedDirectional
   components:
-  - pos: -36.5,19.5
+  - rot: -1.5707963267948966 rad
+    pos: -18.5,17.5
     parent: 0
     type: Transform
 - uid: 4810
-  type: BrigTimer
+  type: WindowReinforcedDirectional
   components:
-  - pos: -27.5,18.5
+  - rot: -1.5707963267948966 rad
+    pos: -18.5,16.5
     parent: 0
     type: Transform
-  - outputs:
-      Start:
-      - port: Close
-        uid: 7786
-      Timer:
-      - port: AutoClose
-        uid: 7786
-      - port: Open
-        uid: 7786
-    type: SignalTransmitter
 - uid: 4811
-  type: BrigTimer
+  type: SpawnPointLawyer
   components:
-  - pos: -27.5,15.5
+  - pos: -18.5,16.5
     parent: 0
     type: Transform
-  - outputs:
-      Start:
-      - port: Close
-        uid: 7785
-      Timer:
-      - port: AutoClose
-        uid: 7785
-      - port: Open
-        uid: 7785
-    type: SignalTransmitter
+- uid: 4812
+  type: ChairOfficeDark
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -18.5,16.5
+    parent: 0
+    type: Transform
+- uid: 4813
+  type: WaterCooler
+  components:
+  - pos: -19.5,17.5
+    parent: 0
+    type: Transform
+- uid: 4814
+  type: TableWood
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -18.5,17.5
+    parent: 0
+    type: Transform
+- uid: 4815
+  type: Lamp
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -17.361332,15.086681
+    parent: 0
+    type: Transform
+- uid: 4816
+  type: BoxFolderGrey
+  components:
+  - pos: -18.455082,17.508556
+    parent: 0
+    type: Transform
+- uid: 4817
+  type: LampGold
+  components:
+  - pos: -18.705082,18.211681
+    parent: 0
+    type: Transform
+- uid: 4818
+  type: Pen
+  components:
+  - pos: -18.345707,17.774181
+    parent: 0
+    type: Transform
+- uid: 4819
+  type: SpawnPointIAA
+  components:
+  - pos: -17.5,15.5
+    parent: 0
+    type: Transform
+- uid: 4820
+  type: FaxMachineBase
+  components:
+  - pos: -18.5,15.5
+    parent: 0
+    type: Transform
+  - name: Lawyer's Office
+    type: FaxMachine
+- uid: 4821
+  type: Pen
+  components:
+  - pos: -18.564457,15.086681
+    parent: 0
+    type: Transform
+- uid: 4822
+  type: BoxFolderGrey
+  components:
+  - pos: -17.736332,14.524181
+    parent: 0
+    type: Transform
+- uid: 4823
+  type: PaperBin10
+  components:
+  - pos: -18.5,14.5
+    parent: 0
+    type: Transform
 - uid: 4826
   type: GasOutletInjector
   components:
@@ -48994,19 +49053,19 @@ entities:
     parent: 0
     type: Transform
 - uid: 6202
-  type: NanoManipulatorStockPart
+  type: HighPowerMicroLaserStockPart
   components:
   - pos: 7.436289,-15.783581
     parent: 0
     type: Transform
 - uid: 6203
-  type: NanoManipulatorStockPart
+  type: HighPowerMicroLaserStockPart
   components:
   - pos: 7.623789,-15.783581
     parent: 0
     type: Transform
 - uid: 6204
-  type: NanoManipulatorStockPart
+  type: HighPowerMicroLaserStockPart
   components:
   - pos: 7.811289,-15.783581
     parent: 0
@@ -49054,7 +49113,7 @@ entities:
     parent: 0
     type: Transform
 - uid: 6212
-  type: SuperCapacitorStockPart
+  type: PhasicScanningModuleStockPart
   components:
   - pos: 7.5679626,-16.149172
     parent: 0
@@ -59651,6 +59710,12 @@ entities:
   - pos: -24.5,22.5
     parent: 0
     type: Transform
+- uid: 7655
+  type: KvassTankFull
+  components:
+  - pos: -17.5,33.5
+    parent: 0
+    type: Transform
 - uid: 7656
   type: WallReinforced
   components:
@@ -60433,18 +60498,6 @@ entities:
     pos: -27.5,16.5
     parent: 0
     type: Transform
-  - inputs:
-      Open:
-      - port: Timer
-        uid: 4811
-      Close:
-      - port: Start
-        uid: 4811
-      Toggle: []
-      AutoClose:
-      - port: Timer
-        uid: 4811
-    type: SignalReceiver
 - uid: 7786
   type: WindoorSecurityLocked
   components:
@@ -60452,18 +60505,6 @@ entities:
     pos: -27.5,19.5
     parent: 0
     type: Transform
-  - inputs:
-      Open:
-      - port: Timer
-        uid: 4810
-      Close:
-      - port: Start
-        uid: 4810
-      Toggle: []
-      AutoClose:
-      - port: Timer
-        uid: 4810
-    type: SignalReceiver
 - uid: 7787
   type: TableReinforced
   components:
@@ -64352,26 +64393,6 @@ entities:
     pos: -18.5,15.5
     parent: 0
     type: Transform
-- uid: 8285
-  type: WindowReinforcedDirectional
-  components:
-  - rot: 1.5707963267948966 rad
-    pos: -18.5,16.5
-    parent: 0
-    type: Transform
-- uid: 8286
-  type: WindowReinforcedDirectional
-  components:
-  - rot: 1.5707963267948966 rad
-    pos: -18.5,17.5
-    parent: 0
-    type: Transform
-- uid: 8287
-  type: WindowReinforcedDirectional
-  components:
-  - pos: -18.5,16.5
-    parent: 0
-    type: Transform
 - uid: 8288
   type: PottedPlantRandom
   components:
@@ -64409,41 +64430,6 @@ entities:
     pos: -19.5,15.5
     parent: 0
     type: Transform
-- uid: 8293
-  type: Chair
-  components:
-  - rot: -1.5707963267948966 rad
-    pos: -18.5,17.5
-    parent: 0
-    type: Transform
-- uid: 8294
-  type: TableWood
-  components:
-  - pos: -19.5,17.5
-    parent: 0
-    type: Transform
-- uid: 8295
-  type: BoxFolderRed
-  components:
-  - pos: -19.475779,17.57452
-    parent: 0
-    type: Transform
-- uid: 8296
-  type: LampGold
-  components:
-  - pos: -18.397654,15.527645
-    parent: 0
-    type: Transform
-  - containers:
-      cellslot_cell_container: !type:ContainerSlot
-        showEnts: False
-        occludes: True
-        ent: null
-      cell_slot: !type:ContainerSlot
-        showEnts: False
-        occludes: True
-        ent: null
-    type: ContainerContainer
 - uid: 8297
   type: GasPipeStraight
   components:
@@ -64545,12 +64531,6 @@ entities:
     type: AtmosPipeColor
   - bodyType: Static
     type: Physics
-- uid: 8308
-  type: SpawnPointLawyer
-  components:
-  - pos: -17.5,16.5
-    parent: 0
-    type: Transform
 - uid: 8309
   type: SignDirectionalSec
   components:
@@ -65297,6 +65277,12 @@ entities:
   type: Rack
   components:
   - pos: -35.5,19.5
+    parent: 0
+    type: Transform
+- uid: 8378
+  type: Rack
+  components:
+  - pos: -36.5,19.5
     parent: 0
     type: Transform
 - uid: 8379
@@ -75111,6 +75097,12 @@ entities:
   - pos: 25.533524,-9.424093
     parent: 0
     type: Transform
+- uid: 9658
+  type: MagazineRifle
+  components:
+  - pos: -36.649223,19.629454
+    parent: 0
+    type: Transform
 - uid: 9659
   type: PoweredSmallLight
   components:
@@ -80653,6 +80645,12 @@ entities:
   type: Grille
   components:
   - pos: -14.5,-59.5
+    parent: 0
+    type: Transform
+- uid: 10442
+  type: WeaponRifleLecter
+  components:
+  - pos: -36.461723,19.457579
     parent: 0
     type: Transform
 - uid: 10443
@@ -86522,62 +86520,6 @@ entities:
     pos: 10.5,-38.5
     parent: 0
     type: Transform
-  - fixtures:
-    - shape: !type:PolygonShape
-        radius: 0.01
-        vertices:
-        - -0.55,-0.55
-        - 0.55,-0.55
-        - 0.55,0.55
-        - -0.55,0.55
-      mask: []
-      layer:
-      - Impassable
-      - MidImpassable
-      - LowImpassable
-      density: 1
-      hard: False
-      restitution: 0
-      friction: 0.4
-      id: conveyor
-    - shape: !type:PolygonShape
-        radius: 0.01
-        vertices:
-        - 0.15,-0.15
-        - 0.15,0.15
-        - -0.15,0.15
-        - -0.15,-0.15
-      mask: []
-      layer:
-      - MidImpassable
-      - HighImpassable
-      - LowImpassable
-      - BulletImpassable
-      - InteractImpassable
-      - Opaque
-      density: 1
-      hard: False
-      restitution: 0
-      friction: 0.4
-      id: brrt
-    - shape: !type:PolygonShape
-        radius: 0.01
-        vertices:
-        - 0.49,-0.49
-        - 0.49,0.49
-        - -0.49,0.49
-        - -0.49,-0.49
-      mask:
-      - Impassable
-      layer:
-      - BulletImpassable
-      - Opaque
-      density: 1
-      hard: True
-      restitution: 0
-      friction: 0.4
-      id: collision
-    type: Fixtures
   - inputs:
       Reverse:
       - port: Right
@@ -93010,6 +92952,12 @@ entities:
     nameSet: True
     id: Virology
     type: SurveillanceCamera
+- uid: 12106
+  type: WeaponRifleLecter
+  components:
+  - pos: -36.461723,19.316954
+    parent: 0
+    type: Transform
 - uid: 12107
   type: AirlockExternalGlassShuttleLocked
   components:
@@ -94858,6 +94806,7 @@ entities:
     - 1937
     - 818
     - 815
+    - invalid
     - 817
     - 816
     - 864
@@ -95945,6 +95894,12 @@ entities:
     pos: 6.5,43.5
     parent: 0
     type: Transform
+- uid: 12415
+  type: MagazineRifle
+  components:
+  - pos: -36.461723,19.629454
+    parent: 0
+    type: Transform
 - uid: 12416
   type: Grille
   components:
@@ -96284,6 +96239,12 @@ entities:
   type: BookAtmosWaste
   components:
   - pos: -25.436514,-18.48842
+    parent: 0
+    type: Transform
+- uid: 12469
+  type: MagazineRifle
+  components:
+  - pos: -36.28985,19.629454
     parent: 0
     type: Transform
 - uid: 12470
