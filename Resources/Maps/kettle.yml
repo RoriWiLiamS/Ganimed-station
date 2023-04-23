@@ -664,7 +664,7 @@ entities:
   - chunks:
       -1,-1:
         ind: -1,-1
-        tiles: TgAAAF4AAABOAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAABEAAACRAAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAABRAAAAEQAAABeAAAAXgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAARAAAAEQAAABEAAADTgAAAF4AAABOAAAAXgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAE4AAABeAAAAXgAAAEQAAABEAAADRAAAAV4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAADRAAAAEQAAAEbAAADFgAAARsAAAISAAAAXgAAAF4AAAAsAAAALAAAACwAAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAFEAAACGwAAABYAAAAbAAABEgAAAF4AAABeAAAAXgAAADwAAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAABEAAACRAAAABYAAAMWAAACFgAAARIAAABeAAAAPAAAADwAAAA8AAAAPAAAADwAAABeAAAAXgAAAF4AAABEAAAARAAAAUQAAAFeAAAAXQAAAF4AAAASAAAAXgAAADwAAAA8AAAAPAAAADwAAAA8AAAAXgAAAF4AAABeAAAARAAAA0QAAAFEAAAAXgAAAF0AAABdAAAAEgAAAF4AAAA8AAAAPAAAADwAAAA8AAAAPAAAAF4AAABeAAAAXgAAAEQAAABEAAADRAAAAV4AAABeAAAAAAAAAF4AAABeAAAAXgAAAF4AAAA8AAAAXgAAAF4AAABeAAAATgAAAF4AAABEAAABRAAAAEQAAAFEAAADXgAAAF4AAABEAAABRAAAAkQAAAJEAAADRAAAA0QAAAFEAAAARAAAAUQAAANEAAABRAAAA0QAAANEAAABRAAAAEQAAABEAAAARAAAA0QAAAJEAAAARAAAA0QAAAFEAAACRAAAAkQAAAJEAAABRAAAA0QAAAFEAAABRAAAAUQAAABEAAABRAAAAEQAAAJEAAAARAAAAEQAAAFEAAAARAAAAkQAAABEAAABRAAAAkQAAAFEAAACRAAAAEQAAANEAAAARAAAA0QAAANeAAAATgAAAF4AAABbAAABXgAAAF4AAABeAAAASgAAACkAAAMpAAACKQAAAkoAAAJeAAAAXgAAAF4AAAAdAAACXgAAAF4AAABeAAAAWwAAAVsAAAFbAAAAXgAAAEoAAANKAAADSgAAAUoAAANKAAABXgAAAF0AAABeAAAAXgAAAA==
+        tiles: TgAAAF4AAABOAAAAXgAAAF4AAABbAAAAWwAAAFsAAABbAAAAXgAAAEQAAABEAAACRAAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAABRAAAAEQAAABeAAAAXgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAARAAAAEQAAABEAAADTgAAAF4AAABOAAAAXgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAE4AAABeAAAAXgAAAEQAAABEAAADRAAAAV4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAADRAAAAEQAAAEbAAADFgAAARsAAAISAAAAXgAAAF4AAAAsAAAALAAAACwAAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAFEAAACGwAAABYAAAAbAAABEgAAAF4AAABeAAAAXgAAADwAAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAABEAAACRAAAABYAAAMWAAACFgAAARIAAABeAAAAPAAAADwAAAA8AAAAPAAAADwAAABeAAAAXgAAAF4AAABEAAAARAAAAUQAAAFeAAAAXQAAAF4AAAASAAAAXgAAADwAAAA8AAAAPAAAADwAAAA8AAAAXgAAAF4AAABeAAAARAAAA0QAAAFEAAAAXgAAAF0AAABdAAAAEgAAAF4AAAA8AAAAPAAAADwAAAA8AAAAPAAAAF4AAABeAAAAXgAAAEQAAABEAAADRAAAAV4AAABeAAAAAAAAAF4AAABeAAAAXgAAAF4AAAA8AAAAXgAAAF4AAABeAAAATgAAAF4AAABEAAABRAAAAEQAAAFEAAADXgAAAF4AAABEAAABRAAAAkQAAAJEAAADRAAAA0QAAAFEAAAARAAAAUQAAANEAAABRAAAA0QAAANEAAABRAAAAEQAAABEAAAARAAAA0QAAAJEAAAARAAAA0QAAAFEAAACRAAAAkQAAAJEAAABRAAAA0QAAAFEAAABRAAAAUQAAABEAAABRAAAAEQAAAJEAAAARAAAAEQAAAFEAAAARAAAAkQAAABEAAABRAAAAkQAAAFEAAACRAAAAEQAAANEAAAARAAAA0QAAANeAAAATgAAAF4AAABbAAABXgAAAF4AAABeAAAASgAAACkAAAMpAAACKQAAAkoAAAJeAAAAXgAAAF4AAAAdAAACXgAAAF4AAABeAAAAWwAAAVsAAAFbAAAAXgAAAEoAAANKAAADSgAAAUoAAANKAAABXgAAAF0AAABeAAAAXgAAAA==
       0,-1:
         ind: 0,-1
         tiles: TgAAADEAAAAxAAAAMQAAADEAAAAxAAAAXgAAAFUAAAJeAAAAWwAAAV4AAAAaAAADGgAAAhoAAAJeAAAAXgAAAF4AAAAxAAAAMQAAADEAAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAGgAAARoAAAIaAAABXgAAAF4AAABeAAAAMQAAADEAAAAxAAAAXgAAABsAAAMbAAACGwAAARsAAAEbAAABXgAAABoAAAIaAAAAGgAAAF4AAABeAAAAXgAAAF4AAABeAAAAFgAAAl4AAAAbAAACHgAAAB4AAAIeAAACGwAAA14AAAAaAAABXgAAAF4AAABeAAAAXgAAABsAAAAbAAADGwAAAxsAAAIbAAADGwAAABkAAAIeAAADGQAAABsAAAEbAAAAGwAAAxsAAAMbAAADGwAAAhsAAAIbAAACHQAAAR0AAAAdAAADHQAAAR0AAAMdAAABHgAAAB0AAAMdAAADHQAAAB0AAAIdAAADHQAAAhsAAAEbAAABGwAAAxsAAAMbAAADGwAAAhsAAAMbAAABGwAAAhsAAAIbAAACGwAAAxsAAAAbAAADGwAAAhsAAAAbAAACXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAAAAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAADRAAAA0QAAAFEAAADRAAAA0QAAANEAAACRAAAAkQAAAJEAAAARAAAAEQAAAFEAAADRAAAAEQAAAFEAAADRAAAAkQAAAJEAAAARAAAA0QAAAJEAAACRAAAA0QAAABEAAACRAAAAEQAAAFEAAAARAAAAUQAAABEAAABRAAAAkQAAAJEAAAARAAAA0QAAAFEAAABRAAAAEQAAABEAAADRAAAAEQAAABEAAAARAAAA0QAAABEAAAARAAAAkQAAAMdAAACHQAAAB0AAAIdAAACXgAAAB0AAAMdAAAAHQAAAx0AAAIdAAACXgAAAB0AAAMdAAAAHQAAAx0AAAAdAAACXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAA==
@@ -751,7 +751,7 @@ entities:
         tiles: XgAAAEQAAAJEAAADRAAAAEQAAABEAAAARAAAAl4AAABEAAAARAAAAUQAAAArAAADKwAAAisAAAFeAAAAXgAAAF4AAABEAAACSwAAAEsAAABLAAAASwAAAEQAAANEAAADRAAAAEQAAABEAAABKwAAAysAAAMrAAABXgAAAF4AAABeAAAARAAAAUsAAABLAAAASwAAAEsAAABEAAADXgAAAEQAAAJEAAACRAAAAisAAAErAAACKwAAAF4AAABeAAAAXgAAAEQAAAFLAAAASwAAAEsAAABLAAAARAAAA14AAABEAAACRAAAAUQAAAIrAAABKwAAAysAAABeAAAAXgAAAF4AAABEAAACSwAAAEsAAABLAAAASwAAAEQAAAJEAAAARAAAAkQAAAJEAAACXgAAACsAAAArAAAAXgAAAF4AAABeAAAARAAAA0QAAAJEAAADRAAAA0QAAANEAAACXgAAAEQAAAFEAAABRAAAAl4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAACRAAAA0QAAAJOAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABeAAAARAAAAEQAAAFEAAADXgAAAF4AAABOAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAANEAAAARAAAAl4AAAAaAAADGgAAARoAAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAE4AAABEAAABRAAAAUQAAABeAAAAGgAAARoAAAIaAAACGgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAA0QAAABEAAABXgAAABoAAAMaAAABGgAAAF4AAABdAAAAXQAAAAAAAAAAAAAAAAAAAF0AAABdAAAAXgAAAEQAAANEAAACRAAAA14AAAAaAAADGgAAAxoAAANeAAAAAAAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAAAF4AAABEAAACRAAAAEQAAABeAAAAXgAAAB0AAAFeAAAAXgAAAAAAAABdAAAAAAAAAAAAAAAAAAAAXQAAAF0AAABeAAAARAAAAEQAAAFEAAABXgAAABYAAAEWAAAAFgAAARYAAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABdAAAAXgAAAEQAAABEAAACRAAAAV4AAABeAAAAFgAAABYAAAMmAAAAGwAAAw8AAAAWAAADTgAAAE4AAABeAAAAXQAAAF4AAABEAAADRAAAA0QAAAIWAAACXgAAAF4AAAAWAAACJgAAAA==
       -1,-2:
         ind: -1,-2
-        tiles: XgAAAF4AAABeAAAAXgAAAFsAAABeAAAAXgAAAF4AAABeAAAARAAAAEQAAAFEAAABXgAAAEcAAABHAAAAXgAAAF4AAABbAAADWwAAAVsAAANbAAADWwAAA1sAAANbAAABXgAAAEQAAAJEAAABRAAAA14AAABeAAAAXgAAAF4AAABeAAAAWwAAAFsAAANbAAABWwAAAlsAAAJbAAADWwAAAF4AAABEAAACRAAAAkQAAABeAAAAXQAAAF0AAABdAAAAXgAAAFsAAAJbAAAAWwAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAAAXgAAAF0AAAAAAAAAAAAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAACRAAAA0QAAAFEAAACRAAAAV4AAABdAAAAXgAAAF4AAABEAAACRAAAA0QAAAFEAAAARAAAAUQAAABEAAADRAAAA0QAAABEAAABRAAAAkQAAAFeAAAAXgAAAF4AAAAdAAACRAAAAUQAAANEAAAARAAAAkQAAANEAAADRAAAAkQAAAFEAAACRAAAA0QAAAFEAAABRAAAA0QAAAJEAAABRAAAAkQAAANEAAAARAAAA0QAAANEAAACRAAAA0QAAABEAAADRAAAAkQAAAFEAAACRAAAAEQAAABEAAABRAAAA0QAAAFeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAKQAAASkAAAMpAAAARAAAAkQAAABEAAACRAAAA0QAAABEAAADXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAACkAAAMpAAADKQAAAEQAAAFEAAADRAAAA0QAAANeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAAXgAAAE4AAAApAAADKQAAAykAAAFEAAABRAAAAkQAAABeAAAAXgAAAF4AAABeAAAATgAAAE4AAABeAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAAAXgAAAF4AAABeAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAANEAAADRAAAAl4AAABeAAAATgAAAF4AAABeAAAATgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABEAAABRAAAA0QAAAJeAAAAXgAAAE4AAABeAAAAXgAAAE4AAABOAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAEQAAANEAAADXgAAAF4AAABOAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAEQAAABEAAADRAAAAF4AAABeAAAAXgAAAA==
+        tiles: XgAAAF4AAABeAAAAXgAAAFsAAABeAAAAXgAAAF4AAABeAAAARAAAAEQAAAFEAAABXgAAAEcAAABHAAAAXgAAAF4AAABbAAADWwAAAVsAAANbAAADWwAAA1sAAANbAAABXgAAAEQAAAJEAAABRAAAA14AAABeAAAAXgAAAF4AAABeAAAAWwAAAFsAAANbAAABWwAAAlsAAAJbAAADWwAAAF4AAABEAAACRAAAAkQAAABeAAAAXQAAAF0AAABdAAAAXgAAAFsAAAJbAAAAWwAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAAAXgAAAF0AAAAAAAAAAAAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAACRAAAA0QAAAFEAAACRAAAAV4AAABdAAAAXgAAAF4AAABEAAACRAAAA0QAAAFEAAAARAAAAUQAAABEAAADRAAAA0QAAABEAAABRAAAAkQAAAFeAAAAXgAAAF4AAAAdAAACRAAAAUQAAANEAAAARAAAAkQAAANEAAADRAAAAkQAAAFEAAACRAAAA0QAAAFEAAABRAAAA0QAAAJEAAABRAAAAkQAAANEAAAARAAAA0QAAANEAAACRAAAA0QAAABEAAADRAAAAkQAAAFEAAACRAAAAEQAAABEAAABRAAAA0QAAAFeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAKQAAASkAAAMpAAAARAAAAkQAAABEAAACRAAAA0QAAABEAAADXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAACkAAAMpAAADKQAAAEQAAAFEAAADRAAAA0QAAANeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAAXgAAAE4AAAApAAADKQAAAykAAAFEAAABRAAAAkQAAABeAAAAXgAAAF4AAABeAAAATgAAAE4AAABeAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAUQAAAJEAAAAXgAAAF4AAABeAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAFsAAABbAAAAXgAAAEQAAANEAAADRAAAAl4AAABeAAAATgAAAF4AAABeAAAATgAAAE4AAABeAAAAXgAAAF4AAABbAAAAWwAAAF4AAABEAAABRAAAA0QAAAJeAAAAXgAAAE4AAABeAAAAXgAAAE4AAABOAAAAWwAAAFsAAABbAAAAWwAAAFsAAABeAAAARAAAAEQAAANEAAADXgAAAF4AAABOAAAAXgAAAF4AAABeAAAAXgAAAF4AAABbAAAAWwAAAFsAAABbAAAAWwAAAEQAAABEAAADRAAAAF4AAABeAAAAXgAAAA==
       -2,-2:
         ind: -2,-2
         tiles: UQAAA1EAAANRAAADUQAAAlEAAABRAAAAUQAAA1EAAAFRAAADUQAAAVEAAAJeAAAAXgAAAF4AAABeAAAAXgAAAFEAAANRAAADUQAAA1EAAABRAAAAUQAAA1EAAAFRAAADUQAAAVEAAABRAAADUQAAA1IAAANSAAABUgAAAFIAAAFRAAAAXgAAAF4AAABeAAAAUQAAAVEAAAFRAAAAUQAAAVEAAAFRAAADUQAAAFEAAABSAAAAUgAAAlIAAAJSAAABUQAAA1EAAANRAAABXgAAAFEAAAFRAAAAUQAAAVEAAAJRAAACUQAAAlEAAANeAAAAUgAAAVIAAAJSAAAAUgAAAFEAAANRAAACUQAAAF4AAABRAAAAUQAAAlEAAAFRAAABUQAAAFEAAAJeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABRAAADUQAAAVEAAAJeAAAAUQAAAFEAAABRAAABUQAAA1EAAABRAAACUQAAAVEAAAFEAAACRAAAAEQAAANEAAABUQAAAVEAAANRAAABUQAAAVEAAAJRAAAAUQAAAFEAAAFRAAADUQAAAVEAAAFRAAACRAAAAEQAAABEAAAARAAAAF4AAABRAAADUQAAAF4AAABRAAABUQAAA1EAAANRAAACUQAAAlEAAAJRAAADUQAAAEQAAAFEAAADRAAAAEQAAAFeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAE4AAABeAAAALgAAABYAAAJeAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAF0AAABeAAAATgAAAE4AAABeAAAAXgAAABYAAAIuAAAAXgAAAAAAAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAAAuAAAAFgAAAV4AAABdAAAAXgAAAFsAAANbAAABWwAAABYAAAM5AAAAFgAAAiIAAAAiAAAAIgAAACIAAAAiAAAAFgAAAy4AAABeAAAAAAAAAF4AAABbAAAAWwAAAVsAAAMWAAABFgAAAhYAAANeAAAAIgAAACIAAAAiAAAAIgAAAC4AAAAWAAAAXgAAAAAAAABeAAAAWwAAA1sAAAFbAAADFgAAAzkAAAAWAAACXgAAAF4AAABeAAAAXgAAAF4AAAAWAAABLgAAAF4AAAAAAAAAXgAAABYAAAMWAAABFgAAABYAAAMWAAADFgAAA1sAAAFbAAACWwAAADkAAAA5AAAAUQAAA1EAAAJeAAAAXQAAAF4AAAAWAAABOQAAABYAAAIWAAABOQAAABYAAAFbAAADWwAAAlsAAAM5AAAAOQAAAA==
@@ -10642,7 +10642,7 @@ entities:
   - pos: 34.5,12.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476416.5
+  - SecondsUntilStateChange: -476992.1
     state: Opening
     type: Door
   - inputs:
@@ -10782,7 +10782,7 @@ entities:
   - pos: 34.5,14.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476416.5
+  - SecondsUntilStateChange: -476992.1
     state: Opening
     type: Door
   - inputs:
@@ -17571,7 +17571,7 @@ entities:
   - pos: 23.5,14.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476477.75
+  - SecondsUntilStateChange: -477053.34
     state: Closing
     type: Door
   - inputs:
@@ -17587,7 +17587,7 @@ entities:
   - pos: 23.5,13.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476477.75
+  - SecondsUntilStateChange: -477053.34
     state: Closing
     type: Door
   - inputs:
@@ -17603,7 +17603,7 @@ entities:
   - pos: 23.5,12.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476477.75
+  - SecondsUntilStateChange: -477053.34
     state: Closing
     type: Door
   - inputs:
@@ -18043,7 +18043,7 @@ entities:
   - pos: 34.5,13.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -476416.5
+  - SecondsUntilStateChange: -476992.1
     state: Opening
     type: Door
   - inputs:
@@ -21134,9 +21134,9 @@ entities:
     parent: 82
     type: Transform
 - uid: 1464
-  type: WallSolid
+  type: PaintingPersistenceOfMemory
   components:
-  - pos: -11.5,-15.5
+  - pos: -8.5,-14.5
     parent: 82
     type: Transform
 - uid: 1465
@@ -30095,7 +30095,7 @@ entities:
   - pos: -41.5,-42.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -363445.2
+  - SecondsUntilStateChange: -364020.78
     state: Opening
     type: Door
 - uid: 2822
@@ -30104,7 +30104,7 @@ entities:
   - pos: -41.5,-44.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -363442.97
+  - SecondsUntilStateChange: -364018.56
     state: Opening
     type: Door
 - uid: 2823
@@ -33684,7 +33684,7 @@ entities:
   - pos: 58.5,-6.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -36905,11 +36905,11 @@ entities:
     parent: 82
     type: Transform
 - uid: 3734
-  type: VendingMachineMedical
+  type: VendingMachineWallMedical
   components:
   - flags: SessionSpecific
     type: MetaData
-  - pos: 53.5,-11.5
+  - pos: 52.5,-10.5
     parent: 82
     type: Transform
 - uid: 3735
@@ -37290,7 +37290,7 @@ entities:
   - pos: 53.5,-25.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37306,7 +37306,7 @@ entities:
   - pos: 53.5,-26.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37322,7 +37322,7 @@ entities:
   - pos: 53.5,-27.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37338,7 +37338,7 @@ entities:
   - pos: 53.5,-28.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37354,7 +37354,7 @@ entities:
   - pos: 53.5,-29.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37370,7 +37370,7 @@ entities:
   - pos: 53.5,-30.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37386,7 +37386,7 @@ entities:
   - pos: 56.5,-25.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37402,7 +37402,7 @@ entities:
   - pos: 56.5,-26.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37418,7 +37418,7 @@ entities:
   - pos: 56.5,-27.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37434,7 +37434,7 @@ entities:
   - pos: 56.5,-28.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37450,7 +37450,7 @@ entities:
   - pos: 56.5,-29.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -37466,7 +37466,7 @@ entities:
   - pos: 56.5,-30.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -474681.44
+  - SecondsUntilStateChange: -475257.03
     state: Opening
     type: Door
   - inputs:
@@ -40458,7 +40458,7 @@ entities:
   - pos: -11.5,17.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -540457.1
+  - SecondsUntilStateChange: -541032.7
     state: Opening
     type: Door
 - uid: 4246
@@ -40467,7 +40467,7 @@ entities:
   - pos: -11.5,19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -540455.4
+  - SecondsUntilStateChange: -541030.94
     state: Opening
     type: Door
 - uid: 4247
@@ -54186,7 +54186,7 @@ entities:
   - pos: -21.5,50.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415336.38
+  - SecondsUntilStateChange: -415911.97
     state: Opening
     type: Door
   - inputs:
@@ -54202,7 +54202,7 @@ entities:
   - pos: -21.5,48.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415336.38
+  - SecondsUntilStateChange: -415911.97
     state: Opening
     type: Door
   - inputs:
@@ -54408,7 +54408,7 @@ entities:
   - pos: 59.5,-6.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -57669,7 +57669,7 @@ entities:
   - pos: -21.5,49.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415336.38
+  - SecondsUntilStateChange: -415911.97
     state: Opening
     type: Door
   - inputs:
@@ -57692,7 +57692,7 @@ entities:
   - pos: -21.5,47.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415336.38
+  - SecondsUntilStateChange: -415911.97
     state: Opening
     type: Door
   - inputs:
@@ -58838,7 +58838,7 @@ entities:
     pos: 3.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58855,7 +58855,7 @@ entities:
     pos: 2.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58923,7 +58923,7 @@ entities:
   - pos: 1.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58939,7 +58939,7 @@ entities:
   - pos: 2.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58955,7 +58955,7 @@ entities:
   - pos: 3.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58971,7 +58971,7 @@ entities:
   - pos: 5.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -58987,7 +58987,7 @@ entities:
   - pos: 6.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59003,7 +59003,7 @@ entities:
   - pos: 7.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59019,7 +59019,7 @@ entities:
   - pos: 8.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59035,7 +59035,7 @@ entities:
   - pos: 9.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59051,7 +59051,7 @@ entities:
   - pos: 11.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59067,7 +59067,7 @@ entities:
   - pos: 12.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59083,7 +59083,7 @@ entities:
   - pos: 13.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59099,7 +59099,7 @@ entities:
   - pos: 14.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -59116,7 +59116,7 @@ entities:
     pos: 16.5,-11.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
 - uid: 6963
@@ -60006,7 +60006,7 @@ entities:
     pos: 16.5,-10.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -60023,7 +60023,7 @@ entities:
     pos: -1.5,-11.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -63014,7 +63014,7 @@ entities:
     pos: -1.5,-10.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -64457,7 +64457,7 @@ entities:
     pos: 25.5,64.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -68535,9 +68535,9 @@ entities:
     parent: 82
     type: Transform
 - uid: 8249
-  type: LockerBrigmedicFilled
+  type: RollerBed
   components:
-  - pos: 51.5,-13.5
+  - pos: 51.492844,-13.510376
     parent: 82
     type: Transform
 - uid: 8250
@@ -72911,7 +72911,7 @@ entities:
     pos: -39.5,-42.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -363617.22
+  - SecondsUntilStateChange: -364192.8
     state: Opening
     type: Door
 - uid: 8897
@@ -83988,7 +83988,7 @@ entities:
   - pos: 62.5,-6.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -91479,9 +91479,9 @@ entities:
   - powerLoad: 0
     type: ApcPowerReceiver
 - uid: 11512
-  type: PillTricordrazine
+  type: MedkitFilled
   components:
-  - pos: 52.41162,-11.486832
+  - pos: 51.94597,-11.260376
     parent: 82
     type: Transform
 - uid: 11513
@@ -91497,15 +91497,15 @@ entities:
     parent: 82
     type: Transform
 - uid: 11515
-  type: PillTricordrazine
+  type: BoxSyringe
   components:
-  - pos: 52.624603,-11.60036
+  - pos: 51.242844,-13.541626
     parent: 82
     type: Transform
 - uid: 11516
-  type: Syringe
+  type: MedkitAdvancedFilled
   components:
-  - pos: 52.00274,-11.546314
+  - pos: 52.742844,-11.197876
     parent: 82
     type: Transform
 - uid: 11517
@@ -91521,15 +91521,15 @@ entities:
     parent: 82
     type: Transform
 - uid: 11519
-  type: MedkitFilled
+  type: PillTricordrazine
   components:
-  - pos: 52.158924,-11.361831
+  - pos: 52.043907,-11.476408
     parent: 82
     type: Transform
 - uid: 11520
-  type: Gauze1
+  type: MedkitCombatFilled
   components:
-  - pos: 52.709797,-11.273964
+  - pos: 52.680344,-11.088501
     parent: 82
     type: Transform
 - uid: 11521
@@ -98001,7 +98001,7 @@ entities:
   - pos: -8.5,32.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -98017,7 +98017,7 @@ entities:
   - pos: -9.5,32.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -98033,7 +98033,7 @@ entities:
   - pos: -7.5,32.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -98057,7 +98057,7 @@ entities:
     pos: -6.5,34.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -98074,7 +98074,7 @@ entities:
     pos: -6.5,35.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -112872,9 +112872,9 @@ entities:
     parent: 82
     type: Transform
 - uid: 13926
-  type: AirlockMaintLocked
+  type: DrinkTeapot
   components:
-  - pos: -6.5,-16.5
+  - pos: -8.519749,-15.069763
     parent: 82
     type: Transform
 - uid: 13927
@@ -113418,7 +113418,7 @@ entities:
   - pos: 60.5,-6.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -113653,7 +113653,7 @@ entities:
     pos: 44.5,12.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -58855.082
+  - SecondsUntilStateChange: -59430.66
     state: Opening
     type: Door
   - inputs:
@@ -113670,7 +113670,7 @@ entities:
     pos: 44.5,13.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -58855.082
+  - SecondsUntilStateChange: -59430.66
     state: Opening
     type: Door
   - inputs:
@@ -121813,9 +121813,10 @@ entities:
   - bodyType: Static
     type: Physics
 - uid: 14962
-  type: AirlockMaintLocked
+  type: AirlockJanitorLocked
   components:
-  - pos: -11.5,-17.5
+  - rot: -1.5707963267948966 rad
+    pos: -6.5,-16.5
     parent: 82
     type: Transform
 - uid: 14963
@@ -128857,7 +128858,7 @@ entities:
     pos: -39.5,-44.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -363442.25
+  - SecondsUntilStateChange: -364017.84
     state: Opening
     type: Door
 - uid: 15912
@@ -135595,7 +135596,7 @@ entities:
     parent: 82
     type: Transform
 - uid: 16950
-  type: RollerBed
+  type: MedicalBed
   components:
   - pos: 53.5,-13.5
     parent: 82
@@ -144008,48 +144009,36 @@ entities:
   - pos: -6.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18217
   type: CableMV
   components:
   - pos: -7.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18218
   type: CableMV
   components:
   - pos: -8.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18219
   type: CableMV
   components:
   - pos: -9.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18220
   type: CableMV
   components:
   - pos: -10.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18221
   type: CableMV
   components:
   - pos: -10.5,-17.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 18222
   type: CableMV
   components:
@@ -150223,10 +150212,71 @@ entities:
   - pos: 36.5,-25.5
     parent: 82
     type: Transform
-- uid: 19118
-  type: ClothingMaskSterile
+- uid: 19111
+  type: AirlockMaintJanitorLocked
   components:
-  - pos: 51.434788,-11.631462
+  - rot: -1.5707963267948966 rad
+    pos: -11.5,-17.5
+    parent: 82
+    type: Transform
+- uid: 19112
+  type: ChairOfficeLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 52.5,-13.5
+    parent: 82
+    type: Transform
+- uid: 19113
+  type: SpawnPointStationMaid
+  components:
+  - pos: -7.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19114
+  type: MopItem
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.535374,-18.663513
+    parent: 82
+    type: Transform
+- uid: 19115
+  type: TableWood
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19116
+  type: MopItem
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.379124,-18.491638
+    parent: 82
+    type: Transform
+- uid: 19117
+  type: ChairWood
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -7.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19118
+  type: SpawnPointStationMaid
+  components:
+  - pos: -9.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19119
+  type: MopBucket
+  components:
+  - pos: -8.722874,-18.663513
+    parent: 82
+    type: Transform
+- uid: 19120
+  type: JanitorialTrolley
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -8.5,-19.5
     parent: 82
     type: Transform
 - uid: 19121
@@ -153024,7 +153074,7 @@ entities:
     pos: -46.5,-34.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -153945,56 +153995,42 @@ entities:
   - pos: -10.5,-17.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19545
   type: CableApcExtension
   components:
   - pos: -10.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19546
   type: CableApcExtension
   components:
   - pos: -9.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19547
   type: CableApcExtension
   components:
   - pos: -8.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19548
   type: CableApcExtension
   components:
   - pos: -8.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19549
   type: CableApcExtension
   components:
   - pos: -7.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19550
   type: CableApcExtension
   components:
   - pos: -6.5,-16.5
     parent: 82
     type: Transform
-  - enabled: True
-    type: AmbientSound
 - uid: 19551
   type: CableApcExtension
   components:
@@ -155752,6 +155788,97 @@ entities:
     type: AtmosPipeColor
   - bodyType: Static
     type: Physics
+- uid: 19805
+  type: ChairWood
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -8.5,-16.5
+    parent: 82
+    type: Transform
+- uid: 19806
+  type: ChairWood
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -9.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19807
+  type: MopBucket
+  components:
+  - pos: -8.535374,-18.819763
+    parent: 82
+    type: Transform
+- uid: 19808
+  type: FloorDrain
+  components:
+  - pos: -8.5,-18.5
+    parent: 82
+    type: Transform
+  - fixtures: []
+    type: Fixtures
+- uid: 19809
+  type: VendingMachineJaniDrobe
+  components:
+  - flags: SessionSpecific
+    type: MetaData
+  - pos: -7.5,-19.5
+    parent: 82
+    type: Transform
+- uid: 19810
+  type: DisposalUnit
+  components:
+  - pos: -10.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19811
+  type: BedsheetMedical
+  components:
+  - pos: 53.5,-13.5
+    parent: 82
+    type: Transform
+- uid: 19812
+  type: LockerBrigmedicFilled
+  components:
+  - pos: 53.5,-11.5
+    parent: 82
+    type: Transform
+- uid: 19813
+  type: DrinkTeacup
+  components:
+  - pos: -8.785374,-15.319763
+    parent: 82
+    type: Transform
+- uid: 19814
+  type: ClothingMaskSterile
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 52.309532,-11.429533
+    parent: 82
+    type: Transform
+- uid: 19815
+  type: BoxBeaker
+  components:
+  - pos: 51.742844,-13.557251
+    parent: 82
+    type: Transform
+- uid: 19816
+  type: ClothingEyesHudMedical
+  components:
+  - pos: 52.742844,-11.541626
+    parent: 82
+    type: Transform
+- uid: 19817
+  type: PillTricordrazine
+  components:
+  - pos: 52.043907,-11.585783
+    parent: 82
+    type: Transform
+- uid: 19818
+  type: DrinkTeacup
+  components:
+  - pos: -8.472874,-15.382263
+    parent: 82
+    type: Transform
 - uid: 19819
   type: GasPipeStraight
   components:
@@ -155762,6 +155889,54 @@ entities:
     type: AtmosPipeColor
   - bodyType: Static
     type: Physics
+- uid: 19820
+  type: DrinkTeacup
+  components:
+  - pos: -8.222874,-15.163513
+    parent: 82
+    type: Transform
+- uid: 19821
+  type: DisposalTrunk
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19822
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -9.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19823
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19824
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -7.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19825
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -6.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19826
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -5.5,-15.5
+    parent: 82
+    type: Transform
 - uid: 19827
   type: GasPipeStraight
   components:
@@ -155782,6 +155957,49 @@ entities:
     type: AtmosPipeColor
   - bodyType: Static
     type: Physics
+- uid: 19829
+  type: DisposalPipe
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -4.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19830
+  type: DisposalBend
+  components:
+  - pos: -3.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 19831
+  type: DisposalPipe
+  components:
+  - pos: -3.5,-16.5
+    parent: 82
+    type: Transform
+- uid: 19832
+  type: DisposalPipe
+  components:
+  - pos: -3.5,-17.5
+    parent: 82
+    type: Transform
+- uid: 19833
+  type: DisposalPipe
+  components:
+  - pos: -3.5,-18.5
+    parent: 82
+    type: Transform
+- uid: 19834
+  type: DisposalPipe
+  components:
+  - pos: -3.5,-19.5
+    parent: 82
+    type: Transform
+- uid: 19835
+  type: DisposalPipe
+  components:
+  - pos: -3.5,-20.5
+    parent: 82
+    type: Transform
 - uid: 19836
   type: GasPipeStraight
   components:
@@ -155878,6 +156096,20 @@ entities:
     type: AtmosPipeColor
   - bodyType: Static
     type: Physics
+- uid: 19845
+  type: Mirror
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -9.5,-18.5
+    parent: 82
+    type: Transform
+- uid: 19846
+  type: Table
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -9.5,-17.5
+    parent: 82
+    type: Transform
 - uid: 19847
   type: GasPipeStraight
   components:
@@ -159927,6 +160159,20 @@ entities:
   - pos: 21.5,24.5
     parent: 82
     type: Transform
+- uid: 20348
+  type: Holoprojector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -9.709303,-17.1432
+    parent: 82
+    type: Transform
+- uid: 20349
+  type: Holoprojector
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -9.678053,-17.23695
+    parent: 82
+    type: Transform
 - uid: 20350
   type: PosterLegitNanotrasenLogo
   components:
@@ -160001,6 +160247,18 @@ entities:
   - flags: SessionSpecific
     type: MetaData
   - pos: -26.5,-1.5
+    parent: 82
+    type: Transform
+- uid: 20362
+  type: ClothingHeadHatCatEars
+  components:
+  - pos: -9.693678,-17.54945
+    parent: 82
+    type: Transform
+- uid: 20363
+  type: BoxTrashbag
+  components:
+  - pos: -7.2718034,-18.721325
     parent: 82
     type: Transform
 - uid: 20364
@@ -161040,6 +161298,18 @@ entities:
   - enabled: True
     type: AmbientSound
   - type: ActiveEmergencyLight
+- uid: 20504
+  type: SprayBottleSpaceCleaner
+  components:
+  - pos: -9.256178,-17.1432
+    parent: 82
+    type: Transform
+- uid: 20505
+  type: SprayBottleSpaceCleaner
+  components:
+  - pos: -9.193678,-17.2057
+    parent: 82
+    type: Transform
 - uid: 20506
   type: EmergencyLight
   components:
@@ -161766,6 +162036,18 @@ entities:
   - enabled: True
     type: AmbientSound
   - type: ActiveEmergencyLight
+- uid: 20573
+  type: SprayBottleSpaceCleaner
+  components:
+  - pos: -9.209303,-17.283825
+    parent: 82
+    type: Transform
+- uid: 20574
+  type: CarpetSBlue
+  components:
+  - pos: -7.5,-15.5
+    parent: 82
+    type: Transform
 - uid: 20575
   type: GasPipeStraight
   components:
@@ -162271,6 +162553,18 @@ entities:
   - pos: -20.5,-45.5
     parent: 82
     type: Transform
+- uid: 20632
+  type: CarpetSBlue
+  components:
+  - pos: -7.5,-16.5
+    parent: 82
+    type: Transform
+- uid: 20633
+  type: CarpetSBlue
+  components:
+  - pos: -8.5,-15.5
+    parent: 82
+    type: Transform
 - uid: 20634
   type: Barricade
   components:
@@ -162355,6 +162649,24 @@ entities:
   type: MaintenanceFluffSpawner
   components:
   - pos: -55.5,-35.5
+    parent: 82
+    type: Transform
+- uid: 20644
+  type: CarpetSBlue
+  components:
+  - pos: -8.5,-16.5
+    parent: 82
+    type: Transform
+- uid: 20645
+  type: CarpetSBlue
+  components:
+  - pos: -9.5,-15.5
+    parent: 82
+    type: Transform
+- uid: 20646
+  type: CarpetSBlue
+  components:
+  - pos: -9.5,-16.5
     parent: 82
     type: Transform
 - uid: 20647
@@ -167296,9 +167608,9 @@ entities:
   - powerLoad: 0
     type: ApcPowerReceiver
 - uid: 21372
-  type: RollerBed
+  type: WallSolid
   components:
-  - pos: 52.5,-13.5
+  - pos: -11.5,-15.5
     parent: 82
     type: Transform
 - uid: 21373
@@ -168470,6 +168782,32 @@ entities:
   - pos: 5.5,-46.5
     parent: 82
     type: Transform
+- uid: 21541
+  type: PoweredSmallLight
+  components:
+  - pos: -7.5,-15.5
+    parent: 82
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+- uid: 21542
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,-18.5
+    parent: 82
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+- uid: 21543
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,-15.5
+    parent: 82
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
 - uid: 21544
   type: Table
   components:
@@ -169036,7 +169374,7 @@ entities:
     pos: 12.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -169675,7 +170013,7 @@ entities:
     pos: 11.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -170203,7 +170541,7 @@ entities:
     pos: 10.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -170220,7 +170558,7 @@ entities:
     pos: 4.5,-19.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -170236,7 +170574,7 @@ entities:
   - pos: 0.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -470549.12
+  - SecondsUntilStateChange: -471124.72
     state: Opening
     type: Door
   - inputs:
@@ -171637,12 +171975,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-- uid: 21954
-  type: Rack
-  components:
-  - pos: -7.5,-19.5
-    parent: 82
-    type: Transform
 - uid: 21955
   type: PoweredSmallLight
   components:
@@ -174121,60 +174453,6 @@ entities:
   - pos: 21.5,64.5
     parent: 82
     type: Transform
-- uid: 22290
-  type: Rack
-  components:
-  - pos: -8.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22291
-  type: Rack
-  components:
-  - pos: -7.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22292
-  type: MaintenanceToolSpawner
-  components:
-  - pos: -8.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22293
-  type: MaintenanceToolSpawner
-  components:
-  - pos: -7.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22294
-  type: MaintenanceFluffSpawner
-  components:
-  - pos: -7.5,-19.5
-    parent: 82
-    type: Transform
-- uid: 22295
-  type: Rack
-  components:
-  - pos: -9.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22296
-  type: Rack
-  components:
-  - pos: -10.5,-15.5
-    parent: 82
-    type: Transform
-- uid: 22297
-  type: Rack
-  components:
-  - pos: -8.5,-19.5
-    parent: 82
-    type: Transform
-- uid: 22298
-  type: PlushieRGBee
-  components:
-  - pos: -8.464796,-19.504696
-    parent: 82
-    type: Transform
 - uid: 22299
   type: ClothingShoesChef
   components:
@@ -174193,24 +174471,12 @@ entities:
   - pos: -69.43708,-43.515503
     parent: 82
     type: Transform
-- uid: 22302
-  type: MaintenanceFluffSpawner
-  components:
-  - pos: -9.5,-15.5
-    parent: 82
-    type: Transform
 - uid: 22303
   type: SignToolStorage
   components:
   - name: Tech Storage
     type: MetaData
   - pos: 9.5,32.5
-    parent: 82
-    type: Transform
-- uid: 22304
-  type: MaintenanceWeaponSpawner
-  components:
-  - pos: -10.5,-15.5
     parent: 82
     type: Transform
 - uid: 22305
@@ -177380,7 +177646,7 @@ entities:
     pos: 44.5,14.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -58855.082
+  - SecondsUntilStateChange: -59430.66
     state: Opening
     type: Door
   - inputs:
@@ -177474,7 +177740,7 @@ entities:
     pos: -6.5,33.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -190676,7 +190942,7 @@ entities:
   - pos: -26.5,60.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415349.72
+  - SecondsUntilStateChange: -415925.3
     state: Closing
     type: Door
   - inputs:
@@ -190692,7 +190958,7 @@ entities:
   - pos: -24.5,60.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415349.72
+  - SecondsUntilStateChange: -415925.3
     state: Closing
     type: Door
   - inputs:
@@ -190729,7 +190995,7 @@ entities:
   - pos: -25.5,60.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415349.72
+  - SecondsUntilStateChange: -415925.3
     state: Closing
     type: Door
   - inputs:
@@ -190913,7 +191179,7 @@ entities:
   - pos: -23.5,60.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415349.72
+  - SecondsUntilStateChange: -415925.3
     state: Closing
     type: Door
   - inputs:
@@ -191461,7 +191727,7 @@ entities:
   - pos: -27.5,60.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -415349.72
+  - SecondsUntilStateChange: -415925.3
     state: Closing
     type: Door
   - inputs:
@@ -193549,30 +193815,6 @@ entities:
   - pos: -8.5,-7.5
     parent: 82
     type: Transform
-- uid: 24928
-  type: CrateServiceReplacementLights
-  components:
-  - pos: -10.5,-16.5
-    parent: 82
-    type: Transform
-  - air:
-      volume: 200
-      immutable: False
-      temperature: 293.1496
-      moles:
-      - 1.6971024
-      - 6.3843384
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
-    type: EntityStorage
 - uid: 24929
   type: MopBucket
   components:
@@ -193756,12 +193998,6 @@ entities:
   type: PosterLegitPDAAd
   components:
   - pos: -9.5,-0.5
-    parent: 82
-    type: Transform
-- uid: 24959
-  type: RandomPosterContraband
-  components:
-  - pos: -10.5,-18.5
     parent: 82
     type: Transform
 - uid: 24960
@@ -195345,7 +195581,7 @@ entities:
   - pos: -10.5,32.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -195434,7 +195670,7 @@ entities:
     pos: 25.5,65.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195450,7 +195686,7 @@ entities:
   - pos: 28.5,67.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195466,7 +195702,7 @@ entities:
   - pos: 27.5,67.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195482,7 +195718,7 @@ entities:
   - pos: 28.5,62.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195498,7 +195734,7 @@ entities:
   - pos: 26.5,62.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195514,7 +195750,7 @@ entities:
   - pos: 27.5,62.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -370665.94
+  - SecondsUntilStateChange: -371241.53
     state: Opening
     type: Door
   - inputs:
@@ -195563,7 +195799,7 @@ entities:
     pos: -6.5,36.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -369357.84
+  - SecondsUntilStateChange: -369933.44
     state: Opening
     type: Door
   - inputs:
@@ -195808,7 +196044,7 @@ entities:
   - pos: -41.5,-40.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -363444.16
+  - SecondsUntilStateChange: -364019.75
     state: Opening
     type: Door
 - uid: 25220
@@ -195848,7 +196084,7 @@ entities:
     pos: -46.5,-35.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -195864,7 +196100,7 @@ entities:
   - pos: -45.5,-33.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -195880,7 +196116,7 @@ entities:
   - pos: -44.5,-33.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -195896,7 +196132,7 @@ entities:
   - pos: -42.5,-33.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -195912,7 +196148,7 @@ entities:
   - pos: -41.5,-33.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -362299
+  - SecondsUntilStateChange: -362874.6
     state: Opening
     type: Door
   - inputs:
@@ -196210,7 +196446,7 @@ entities:
   - pos: 61.5,-6.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196239,7 +196475,7 @@ entities:
     pos: 57.5,-7.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196256,7 +196492,7 @@ entities:
     pos: 57.5,-8.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196273,7 +196509,7 @@ entities:
     pos: 57.5,-10.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196290,7 +196526,7 @@ entities:
     pos: 57.5,-11.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196307,7 +196543,7 @@ entities:
     pos: 57.5,-9.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196324,7 +196560,7 @@ entities:
     pos: 59.5,-14.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
@@ -196341,7 +196577,7 @@ entities:
     pos: 59.5,-15.5
     parent: 82
     type: Transform
-  - SecondsUntilStateChange: -359513.7
+  - SecondsUntilStateChange: -360089.28
     state: Opening
     type: Door
   - inputs:
