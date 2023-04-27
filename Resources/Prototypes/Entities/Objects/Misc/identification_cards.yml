@@ -424,7 +424,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: BrigmedIDCard
+  id: BrigmedicIDCard
   name: brigmedic ID card
   components:
   - type: Sprite

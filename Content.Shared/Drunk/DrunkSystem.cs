@@ -32,7 +32,11 @@ public abstract class SharedDrunkSystem : EntitySystem
             _statusEffectsSystem.TryAddTime(uid, DrunkKey, TimeSpan.FromSeconds(boozePower), status);
         }
     }
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> original-upstream/master
     public void TryRemoveDrunkenness(EntityUid uid)
     {
         _statusEffectsSystem.TryRemoveStatusEffect(uid, DrunkKey);

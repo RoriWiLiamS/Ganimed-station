@@ -8,7 +8,12 @@ using Content.Server.AlertLevel;
 using Content.Server.Instruments;
 using Content.Server.GameTicking;
 using Content.Server.Light.Events;
+<<<<<<< HEAD
 using Content.Server.Store.Systems;
+=======
+using Content.Server.PDA.Ringer;
+using Content.Server.Station.Systems;
+>>>>>>> original-upstream/master
 using Content.Server.UserInterface;
 using Content.Server.Access.Systems;
 using Content.Server.Station.Systems;
@@ -32,20 +37,27 @@ namespace Content.Server.PDA
         [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
         [Dependency] private readonly StationSystem _stationSystem = default!;
         [Dependency] private readonly CartridgeLoaderSystem _cartridgeLoaderSystem = default!;
+<<<<<<< HEAD
         [Dependency] private readonly StoreSystem _storeSystem = default!;
         [Dependency] public readonly GameTicker GameTicker = default!;
         [Dependency] private readonly AccessSystem _access = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly StationSystem _station = default!;
+=======
+>>>>>>> original-upstream/master
 
         public override void Initialize()
         {
             base.Initialize();
 
             SubscribeLocalEvent<PDAComponent, LightToggleEvent>(OnLightToggle);
+<<<<<<< HEAD
             SubscribeLocalEvent<PDAComponent, AfterActivatableUIOpenEvent>(AfterUIOpen);
             SubscribeLocalEvent<PDAComponent, StoreAddedEvent>(OnUplinkInit);
             SubscribeLocalEvent<PDAComponent, StoreRemovedEvent>(OnUplinkRemoved);
+=======
+            SubscribeLocalEvent<PDAComponent, GridModifiedEvent>(OnGridChanged);
+>>>>>>> original-upstream/master
         }
 
         protected override void OnComponentInit(EntityUid uid, PDAComponent pda, ComponentInit args)
@@ -85,6 +97,7 @@ namespace Content.Server.PDA
             UpdatePDAUserInterface(pda);
         }
 
+<<<<<<< HEAD
         private void OnUplinkInit(EntityUid uid, PDAComponent pda, ref StoreAddedEvent args)
         {
             UpdatePDAUserInterface(pda);
@@ -92,6 +105,11 @@ namespace Content.Server.PDA
 
         private void OnUplinkRemoved(EntityUid uid, PDAComponent pda, ref StoreRemovedEvent args)
         {
+=======
+        private void OnGridChanged(EntityUid uid, PDAComponent pda, GridModifiedEvent args)
+        {
+            UpdateStationName(pda);
+>>>>>>> original-upstream/master
             UpdatePDAUserInterface(pda);
         }
 
@@ -164,6 +182,7 @@ namespace Content.Server.PDA
                 hasInstrument, address);
 
             _cartridgeLoaderSystem?.UpdateUiState(pda.Owner, state);
+<<<<<<< HEAD
 
             // TODO UPLINK RINGTONES/SECRETS This is just a janky placeholder way of hiding uplinks from non syndicate
             // players. This should really use a sort of key-code entry system that selects an account which is not directly tied to
@@ -185,6 +204,8 @@ namespace Content.Server.PDA
                     mindcomp.Mind.HasRole<TraitorRole>()))
                     _cartridgeLoaderSystem?.UpdateUiState(pda.Owner, uplinkState, session);
             }
+=======
+>>>>>>> original-upstream/master
         }
 
         private static string GetAccessLevelName(AccessLevelPrototype prototype)
@@ -208,14 +229,6 @@ namespace Content.Server.PDA
                     {
                         if (EntityManager.TryGetComponent(pdaEnt, out UnpoweredFlashlightComponent? flashlight))
                             _unpoweredFlashlight.ToggleLight(pdaEnt, flashlight);
-                        break;
-                    }
-
-                case PDAShowUplinkMessage _:
-                    {
-                        if (msg.Session.AttachedEntity != null &&
-                            TryComp<StoreComponent>(pdaEnt, out var store))
-                            _storeSystem.ToggleUi(msg.Session.AttachedEntity.Value, pdaEnt, store);
                         break;
                     }
                 case PDAShowRingtoneMessage _:
@@ -246,6 +259,7 @@ namespace Content.Server.PDA
             }
         }
 
+<<<<<<< HEAD
         private void AfterUIOpen(EntityUid uid, PDAComponent pda, AfterActivatableUIOpenEvent args)
         {
             //TODO: this is awful
@@ -321,6 +335,8 @@ namespace Content.Server.PDA
             _cartridgeLoaderSystem?.UpdateUiState(uid, state, args.Session);
         }
 
+=======
+>>>>>>> original-upstream/master
         private string? GetDeviceNetAddress(EntityUid uid)
         {
             string? address = null;
