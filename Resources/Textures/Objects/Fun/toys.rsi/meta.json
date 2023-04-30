@@ -72,10 +72,10 @@
             "directions": 4
         },
         {
-            "name": "AI"
+            "name": "base"
         },
         {
-            "name": "base"
+			"name": "AI"
         },
         {
             "name": "bolt-closed"
