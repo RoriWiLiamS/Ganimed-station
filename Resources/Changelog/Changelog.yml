@@ -1,49 +1,4 @@
 Entries:
-- author: Cripes
-  changes:
-  - {message: Fixed bug where cargo orders would only half-fill the shuttle capacity.,
-    type: Fix}
-  id: 3101
-  time: '2023-03-05T04:27:30.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Fix some more instances of NPCs dancing., type: Fix}
-  - {message: NPCs have rudimentary stuck detection., type: Fix}
-  id: 3102
-  time: '2023-03-05T05:13:09.0000000+00:00'
-- author: keronshb
-  changes:
-  - {message: You no longer can rapidly eat food, type: Tweak}
-  - {message: You no longer can chug drinks, type: Tweak}
-  - {message: Fixes cancelling fixing a window instantly fixes it, type: Fix}
-  - {message: Fixes doafters being spammed on headset encryption key removal, type: Fix}
-  - {message: Cancelling a butcher attempt on clothes will no longer brick it, type: Fix}
-  - {message: Fixes players not being able to dump trash into a bin, type: Fix}
-  id: 3103
-  time: '2023-03-05T05:26:03.0000000+00:00'
-- author: ElectroJr
-  changes:
-  - {message: Verbs are now usable in the stripping menu., type: Add}
-  - {message: Added a new verb for toggling hardsuit helmets., type: Add}
-  id: 3104
-  time: '2023-03-05T17:12:09.0000000+00:00'
-- author: Duke Vanity
-  changes:
-  - {message: 3 new mutations for botany, type: Add}
-  id: 3105
-  time: '2023-03-06T01:11:13.0000000+00:00'
-- author: FluffiestFloof
-  changes:
-  - {message: Garlic and Garlic Bread slice recipe., type: Add}
-  - {message: Kimchi Salad recipe now use Garlic and Coleslaw uses Vinaigrette., type: Tweak}
-  id: 3106
-  time: '2023-03-06T01:50:09.0000000+00:00'
-- author: lapatison
-  changes:
-  - {message: Lockers of heads of staff were supplied with encryption key boxes.,
-    type: Add}
-  id: 3107
-  time: '2023-03-06T02:32:08.0000000+00:00'
 - author: furontier
   changes:
   - {message: Added lizard crate to cargo request console, type: Add}
@@ -2886,3 +2841,43 @@ Entries:
       in maintenance.', type: Add}
   id: 3600
   time: '2023-05-01T14:43:31.0000000+00:00'
+- author: ProPandaBear
+  changes:
+  - {message: Increased toxin poison damage from 2 to 4., type: Tweak}
+  id: 3601
+  time: '2023-05-01T16:54:47.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Old NPC targeting has been ported to the new system and will prefer
+      the closest target over the weakest one much more., type: Fix}
+  - {message: NPC mice will now eat food., type: Add}
+  - {message: Runtime will now attack mice., type: Add}
+  id: 3602
+  time: '2023-05-01T18:57:11.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Wide melee attacks are now also lag compensated., type: Add}
+  id: 3603
+  time: '2023-05-01T19:07:17.0000000+00:00'
+- author: Nimfar11
+  changes:
+  - {message: Now slimes can be a ghost role, type: Fix}
+  id: 3604
+  time: '2023-05-01T19:20:06.0000000+00:00'
+- author: TaralGit
+  changes:
+  - {message: bulletproof and reflective armor now have proper sprites, type: Fix}
+  id: 3605
+  time: '2023-05-01T22:53:40.0000000+00:00'
+- author: themias
+  changes:
+  - {message: Fixed an issue where wires could sometimes not be cut or pulsed in high-sec
+      doors, type: Fix}
+  id: 3606
+  time: '2023-05-02T00:40:31.0000000+00:00'
+- author: Mumohan
+  changes:
+  - {message: Syndicate discounted the fake capgun to please their clown and mime
+      agents, type: Tweak}
+  id: 3607
+  time: '2023-05-02T01:29:03.0000000+00:00'
