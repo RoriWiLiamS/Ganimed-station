@@ -91,6 +91,16 @@ namespace Content.Server.PDA
             UpdatePdaUi(uid, pda);
         }
 
+        private void OnUplinkInit(EntityUid uid, PDAComponent pda, ref StoreAddedEvent args)
+        {
+            UpdatePDAUserInterface(pda);
+        }
+
+        private void OnUplinkRemoved(EntityUid uid, PDAComponent pda, ref StoreRemovedEvent args)
+        {
+            UpdatePDAUserInterface(pda);
+        }
+
         private void UpdatePDAUserInterface(PDAComponent pda)
         {
             var ownerInfo = new PdaIdInfoText
