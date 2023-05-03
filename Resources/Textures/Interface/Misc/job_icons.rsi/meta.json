@@ -8,9 +8,6 @@
     },
     "states": [
         {
-            "name": "CustomId"
-        },
-        {
             "name": "Detective"
         },
         {
@@ -144,9 +141,6 @@
         },
         {
             "name": "SecurityCadet"
-        },
-        {
-            "name": "IAA"
         },
         {
             "name": "Zookeeper"
