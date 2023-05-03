@@ -1,29 +1,4 @@
 Entries:
-- author: DrSmugleaf
-  changes:
-  - {message: 'Fix incorrect access denied popup when trying to open a locker with
-      a remote in hand,', type: Fix}
-  id: 3128
-  time: '2023-03-06T19:10:35.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Catwalks allow you to pass over lava unharmed., type: Add}
-  id: 3129
-  time: '2023-03-06T19:11:28.0000000+00:00'
-- author: Flareguy
-  changes:
-  - {message: Added a new alternate jumpsuit for Atmospheric Technicians, type: Add}
-  - {message: 'Added a new alternate jumpsuit for Scientists, along with a matching
-      tie', type: Add}
-  - {message: Changed the tie sprites to look slightly less weird, type: Tweak}
-  id: 3130
-  time: '2023-03-06T19:42:10.0000000+00:00'
-- author: Menshin
-  changes:
-  - {message: The flip verb now has a icon and can be found under the rotation category.,
-    type: Add}
-  id: 3131
-  time: '2023-03-06T19:45:47.178629+00:00'
 - author: crazybrain
   changes:
   - {message: Space bears can now fit through doorsz, type: Tweak}
@@ -2896,3 +2871,24 @@ Entries:
     type: Add}
   id: 3627
   time: '2023-05-03T12:47:17.0000000+00:00'
+- author: Naive817
+  changes:
+  - {message: 'NT employees now know how to make damp rags from cloth, it can clean
+      up some mess but holds less liquid.', type: Add}
+  id: 3628
+  time: '2023-05-03T17:01:55.0000000+00:00'
+- author: notquitehadouken
+  changes:
+  - {message: The rot now consumes (dwarves), type: Fix}
+  id: 3629
+  time: '2023-05-03T17:16:26.0000000+00:00'
+- author: themias
+  changes:
+  - {message: Mimes with unbroken vows can no longer scream or laugh, type: Fix}
+  id: 3630
+  time: '2023-05-03T17:24:00.0000000+00:00'
+- author: crazybrain
+  changes:
+  - {message: HoP's airlocks on Moose now work with their door remote., type: Fix}
+  id: 3631
+  time: '2023-05-03T18:38:48.0000000+00:00'
