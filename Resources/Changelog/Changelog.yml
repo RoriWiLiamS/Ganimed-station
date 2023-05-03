@@ -1,42 +1,4 @@
 Entries:
-- author: 08A
-  changes:
-  - {message: Fixed entity spawn menu preview for pipes, type: Fix}
-  id: 3119
-  time: '2023-03-06T17:01:36.0000000+00:00'
-- author: Whisper
-  changes:
-  - {message: Body parts can now be put in trash bags. Viscera Cleanup Detail!, type: Add}
-  id: 3120
-  time: '2023-03-06T17:33:54.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: Fixed bugs with clothing getting stuck after a polymorph., type: Fix}
-  id: 3121
-  time: '2023-03-06T17:37:18.0000000+00:00'
-- author: 08A
-  changes:
-  - {message: (Construction Menu) Reset ghost preview when selecting a craft, type: Fix}
-  id: 3122
-  time: '2023-03-06T18:08:54.0000000+00:00'
-- author: lapatison
-  changes:
-  - {message: 'Added lime, orange; and citrus salad recipe.', type: Add}
-  - {message: Lime and orange cakes now require fruits instead of juice, type: Tweak}
-  id: 3123
-  time: '2023-03-06T18:45:39.0000000+00:00'
-- author: pofitlo
-  changes:
-  - {message: Cigarettes vending machine can be emagged for a new inventory entry,
-    type: Tweak}
-  id: 3124
-  time: '2023-03-06T18:54:22.0000000+00:00'
-- author: MagnusCrowe
-  changes:
-  - {message: 'Added paramedic hat and jacket, at the medidrobe while supplies last',
-    type: Add}
-  id: 3125
-  time: '2023-03-06T19:04:12.0000000+00:00'
 - author: Slava0135
   changes:
   - {message: 'Added Emp Grenade to uplink (4 TC). Drains power from nearby batteries
@@ -2887,3 +2849,49 @@ Entries:
   - {message: Added defibrillators to the medical techfab., type: Add}
   id: 3618
   time: '2023-05-03T00:10:20.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fix defib., type: Fix}
+  id: 3619
+  time: '2023-05-03T01:32:07.0000000+00:00'
+- author: DjfjdfofdjfjD
+  changes:
+  - {message: 'Inaprovaline now works when you are in critical condition, not when
+      you have more than 100 dmg.', type: Fix}
+  id: 3620
+  time: '2023-05-03T03:44:31.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: 'Thanks to new NT stomach medication, examining players no longer shows
+      them as perpetually bloated.', type: Fix}
+  - {message: 'Cold temperatures, body bags, and morgues now properly prevent rotting.',
+    type: Fix}
+  - {message: Zombies no longer passively produce miasma., type: Tweak}
+  id: 3621
+  time: '2023-05-03T04:57:47.0000000+00:00'
+- author: Interrobang01
+  changes:
+  - {message: 'Multiple lawsuits from entities beyond Time have led Nanotrasen to
+      fix the hole in reality caused by looking above and a little to the left of
+      a disabler lying on the floor. This should make the game around 500,000 times
+      better.', type: Fix}
+  id: 3622
+  time: '2023-05-03T05:07:23.0000000+00:00'
+- author: Emisse
+  changes:
+  - {message: Overdosing is stronger and diphenhydramine and ethylredoxrazine now
+      have anti poison properties., type: Add}
+  id: 3623
+  time: '2023-05-03T05:21:21.0000000+00:00'
+- author: Slava0135
+  changes:
+  - {message: fixed bomb suit explosion resistance values (50% for helmet and 80%
+      for suit - 90% in total - which is enough to survive minibomb explosion), type: Fix}
+  - {message: you can now examine explosion resistance of armor, type: Add}
+  id: 3624
+  time: '2023-05-03T05:23:08.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: Reduced how long it takes to restock a vendor., type: Tweak}
+  id: 3625
+  time: '2023-05-03T05:38:03.0000000+00:00'
