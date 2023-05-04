@@ -8,12 +8,16 @@ namespace Content.Server.Speech.EntitySystems
         [Dependency] private readonly IRobustRandom _random = default!;
 
         private static readonly IReadOnlyList<string> Faces = new List<string>{
-            " (・`ω´・)", " ;;w;;", " owo", " UwU", " >w<", " ^w^"
+            " (@`ω´@)", " ;;w;;", " owo", " UwU", " >w<", " ^w^"
         }.AsReadOnly();
 
         private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
         {
             { "you", "wu" },
+            { "ты", "ти" },
+            { "Ты", "Ти" },
+            { "тЫ", "тИ" },
+            { "ТЫ", "ТИ" }
         };
 
         public override void Initialize()
@@ -29,6 +33,13 @@ namespace Content.Server.Speech.EntitySystems
             }
 
             return message.Replace("!", _random.Pick(Faces))
+                //Ganimed speech-loc start
+                .Replace("р", "в").Replace("Р", "В")
+                .Replace("л", "в").Replace("Л", "В")
+                .Replace("на", "ня").Replace("На", "Ня").Replace("нА", "нЯ").Replace("НА", "НЯ")
+                .Replace("ма", "мя").Replace("Ма", "Мя").Replace("мА", "мЯ").Replace("МА", "МЯ")
+                .Replace("!", "~!").Replace("?", "~?")
+                //Ganimed speech-loc end
                 .Replace("r", "w").Replace("R", "W")
                 .Replace("l", "w").Replace("L", "W");
         }
