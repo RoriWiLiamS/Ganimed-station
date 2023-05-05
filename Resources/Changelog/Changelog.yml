@@ -1,49 +1,4 @@
 Entries:
-- author: checkraze
-  changes:
-  - {message: Added custom parallax to Aspid, type: Add}
-  id: 3138
-  time: '2023-03-07T00:33:03.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Weather can now last indefinitely., type: Tweak}
-  - {message: Lattices now draw under weather, type: Tweak}
-  - {message: Weather can now transition from one state to another., type: Tweak}
-  id: 3139
-  time: '2023-03-07T01:28:51.0000000+00:00'
-- author: jamessimo
-  changes:
-  - {message: APC UI gets a visual update, type: Tweak}
-  - {message: APC will now disable its toggle and show a tooltip if you don't have
-      access., type: Tweak}
-  id: 3140
-  time: '2023-03-07T01:55:35.0000000+00:00'
-- author: Alekshhh
-  changes:
-  - {message: Changed the war announcement sound to be shorter., type: Tweak}
-  id: 3141
-  time: '2023-03-07T02:49:55.0000000+00:00'
-- author: Alekshhh
-  changes:
-  - {message: Changed held toolbox sprites to be more robust, type: Tweak}
-  id: 3142
-  time: '2023-03-07T13:48:34.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Fix toy bap sounds., type: Fix}
-  id: 3143
-  time: '2023-03-09T08:28:57.0000000+00:00'
-- author: Slava0135
-  changes:
-  - {message: added emp artifact effect., type: Add}
-  id: 3144
-  time: '2023-03-09T08:30:01.0000000+00:00'
-- author: keronshb
-  changes:
-  - {message: Mop indicator is now fixed, type: Fix}
-  - {message: Fixes drinking from bricking if you were full before drinking, type: Fix}
-  id: 3145
-  time: '2023-03-09T08:45:19.0000000+00:00'
 - author: ShadowCommander
   changes:
   - {message: Separated HUD mode now expands the game viewport instead of the chat
@@ -2893,3 +2848,48 @@ Entries:
   - {message: Add Drozd., type: Add}
   id: 3637
   time: '2023-05-04T03:35:33.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: Removed brigmedic., type: Remove}
+  id: 3638
+  time: '2023-05-04T10:08:01.0000000+00:00'
+- author: Whisper
+  changes:
+  - {message: Brigmedic jumpsuit blueprints have been returned to the HOP. Ask your
+      local HOS if you wish to be security's in house doctor., type: Tweak}
+  id: 3639
+  time: '2023-05-04T14:19:49.0000000+00:00'
+- author: PixelTK
+  changes:
+  - {message: 'Tarantulas have evolved (or devolved, however you see it) to have blue
+      blood instead of red.', type: Tweak}
+  id: 3640
+  time: '2023-05-04T18:26:20.0000000+00:00'
+- author: lzk
+  changes:
+  - {message: Mime's stamp now spawns in mime's satchel, type: Tweak}
+  id: 3641
+  time: '2023-05-04T18:30:22.0000000+00:00'
+- author: SonicDC
+  changes:
+  - {message: Changed the ability to paint glass airlocks!, type: Tweak}
+  id: 3642
+  time: '2023-05-04T18:31:16.0000000+00:00'
+- author: lzk228
+  changes:
+  - {message: Cat crate have more types of cats, type: Tweak}
+  id: 3643
+  time: '2023-05-04T19:00:51.0000000+00:00'
+- author: Scribbles0
+  changes:
+  - {message: Mute people can no longer scream or vocalize emotes., type: Fix}
+  - {message: Lightweight drunk now applies to the drunk accent as well., type: Fix}
+  id: 3644
+  time: '2023-05-04T19:02:31.0000000+00:00'
+- author: tom-leys
+  changes:
+  - {message: 'Air vents leak in vacuum, eventually (10-30 mins) re-pressurizing sealed,
+      spaced sections', type: Add}
+  - {message: Air vent pumps are limited to 2.0 * supply pressure at most, type: Add}
+  id: 3645
+  time: '2023-05-05T00:34:15.0000000+00:00'
