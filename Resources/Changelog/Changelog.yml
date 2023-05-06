@@ -1,48 +1,4 @@
 Entries:
-- author: Whisper
-  changes:
-  - {message: Science lockers now come with both a node scanner *and* an anomaly scanner,
-    type: Add}
-  id: 3172
-  time: '2023-03-13T04:02:08.0000000+00:00'
-- author: furontier
-  changes:
-  - {message: Flashes can no longer affect blind players., type: Tweak}
-  id: 3173
-  time: '2023-03-13T04:03:51.0000000+00:00'
-- author: Alekshhh
-  changes:
-  - {message: Changed security and HoS hardsuits lights from red to yellow., type: Tweak}
-  id: 3174
-  time: '2023-03-13T17:45:48.0000000+00:00'
-- author: Alekshhh
-  changes:
-  - {message: 'Added the warden''s hardsuit to the warden''s locker. Don''t abuse
-      it, wardens.', type: Add}
-  id: 3175
-  time: '2023-03-13T17:47:56.0000000+00:00'
-- author: Rane
-  changes:
-  - {message: 'Welding doors will now stop mice, rat kings and other mobs from running
-      under them.', type: Tweak}
-  id: 3176
-  time: '2023-03-13T19:26:21.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: 'Makeshift handcuffs are now the correct color, green.', type: Fix}
-  id: 3177
-  time: '2023-03-13T23:39:06.0000000+00:00'
-- author: Potato1234_x
-  changes:
-  - {message: Changed the held sprites of almost every uniform to be more accurate.,
-    type: Tweak}
-  id: 3178
-  time: '2023-03-14T00:12:58.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: Fixed being able to emag machines by snipping the access wire., type: Fix}
-  id: 3179
-  time: '2023-03-14T02:55:19.0000000+00:00'
 - author: ficcialfaint
   changes:
   - {message: Station Records Computer now shows fingerprints, type: Add}
@@ -2904,3 +2860,51 @@ Entries:
     type: Fix}
   id: 3671
   time: '2023-05-06T05:54:36.0000000+00:00'
+- author: lzk228
+  changes:
+  - {message: Wet floor holosign lifetime increased from 30 to 90 seconds, type: Tweak}
+  id: 3672
+  time: '2023-05-06T06:44:38.0000000+00:00'
+- author: Tunguso4ka
+  changes:
+  - {message: Uranium sheets is now edible., type: Add}
+  id: 3673
+  time: '2023-05-06T07:23:05.0000000+00:00'
+- author: lapatison
+  changes:
+  - {message: Cigarette pack and matchbox sizes were downed to 5, type: Tweak}
+  - {message: Matchbox inventory size was adjusted, type: Tweak}
+  id: 3674
+  time: '2023-05-06T07:27:50.0000000+00:00'
+- author: Fireheart
+  changes:
+  - {message: 'Improved paperwork interface, enabling fillable forms to be created
+      and sealed with a stamp.', type: Tweak}
+  id: 3675
+  time: '2023-05-06T07:35:22.0000000+00:00'
+- author: lapatison
+  changes:
+  - {message: Added several soup recipes, type: Add}
+  - {message: Added soup flavors, type: Add}
+  id: 3676
+  time: '2023-05-06T07:36:34.0000000+00:00'
+- author: deltanedas
+  changes:
+  - {message: 'Saltern has been refitted with the latest and greatest, it is now back
+      in rotation.', type: Add}
+  - {message: Omega has been derotated due to excessive wear and tear., type: Remove}
+  id: 3677
+  time: '2023-05-06T07:41:24.0000000+00:00'
+- author: Potato1234_x
+  changes:
+  - {message: Added 5 new bread loaves, type: Add}
+  - {message: Added a recipe for all bread loaves, type: Add}
+  - {message: Changed all bread sprites, type: Tweak}
+  id: 3678
+  time: '2023-05-06T07:41:32.0000000+00:00'
+- author: Potato1234_x
+  changes:
+  - {message: Added 3 new burgers and made 8 unused burgers craftable., type: Add}
+  - {message: Cargo can now purchase a crate of crabs., type: Add}
+  id: 3679
+  time: '2023-05-06T07:43:09.0000000+00:00'
