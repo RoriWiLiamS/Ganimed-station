@@ -1,32 +1,4 @@
 Entries:
-- author: ficcialfaint
-  changes:
-  - {message: Station Records Computer now shows fingerprints, type: Add}
-  id: 3180
-  time: '2023-03-14T02:55:56.0000000+00:00'
-- author: Potato1234_x
-  changes:
-  - {message: Changed the sprite of frezon canisters., type: Tweak}
-  - {message: Fixed frezon canisters spawning with N2O in them., type: Fix}
-  id: 3181
-  time: '2023-03-14T03:42:07.0000000+00:00'
-- author: moony
-  changes:
-  - {message: The flashbang now darkens the screen instead of brightening it., type: Tweak}
-  id: 3182
-  time: '2023-03-14T05:37:22.0000000+00:00'
-- author: ElectroJr
-  changes:
-  - {message: Fixed a deconstruction bug that could cause entities to get "stuck"
-      to other entities., type: Fix}
-  id: 3183
-  time: '2023-03-15T00:14:19.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: The syndicate encryption key no longer allows you to access every radio
-      channel., type: Remove}
-  id: 3184
-  time: '2023-03-15T00:38:00.0000000+00:00'
 - author: checkraze
   changes:
   - {message: Added the Lava Brig dungeon theme., type: Add}
@@ -2908,3 +2880,33 @@ Entries:
   - {message: Cargo can now purchase a crate of crabs., type: Add}
   id: 3679
   time: '2023-05-06T07:43:09.0000000+00:00'
+- author: tom-leys
+  changes:
+  - {message: You can open and close firelock doors like airlock doors if they are
+      safe. You still need a crowbar for unsafe doors., type: Add}
+  id: 3680
+  time: '2023-05-06T10:21:26.0000000+00:00'
+- author: Slava0135
+  changes:
+  - {message: hot potato now deals damage while you are holding it, type: Add}
+  id: 3681
+  time: '2023-05-06T10:30:16.0000000+00:00'
+- author: ar4ill
+  changes:
+  - {message: 'Added roboticist jumpsuit, jumpskirt and labcoat. They''re available
+      in RoboDrobe.', type: Add}
+  - {message: Robotics wardrobe is now filled., type: Tweak}
+  id: 3682
+  time: '2023-05-06T10:38:47.0000000+00:00'
+- author: crazybrain
+  changes:
+  - {message: 'After several complaints, the blueprint for the biomass reclaimer has
+      been streamlined.', type: Tweak}
+  id: 3683
+  time: '2023-05-06T10:57:34.0000000+00:00'
+- author: deltanedas
+  changes:
+  - {message: 'Added construction for signal timer, screen timer and brig timer.',
+    type: Add}
+  id: 3684
+  time: '2023-05-06T11:15:07.0000000+00:00'
