@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Spites by Kiss, code by Red_Spy",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {"name": "agent_pen"},
+    {"name": "blue_pen"},
+    {"name": "cargo_pen"},
+    {"name": "chem_pen"},
+    {"name": "eng_pen"},
+    {"name": "fish_pen"},
+	{"name": "cmo_pen"},
+    {"name": "hos_pen"},
+    {"name": "qm_pen"},
+    {"name": "ce_pen"},
+    {"name": "rd_pen"},
+    {"name": "green_pen"},
+	{"name": "rainbow_pen"},
+	{"name": "love_pen"},
+    {"name": "med_pen"},
+    {"name": "pink_pen"},
+    {"name": "purple_pen"},
+    {"name": "RnD_pen"},
+    {"name": "sec_pen"},
+    {"name": "space_pen"},
+    {"name": "yellow_pen"}
+  ]
+}

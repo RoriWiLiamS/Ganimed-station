@@ -1,0 +1,209 @@
+- type: entity
+  name: HoS's pen
+  parent: Pen
+  id: HoSPen
+  description: A dark ink pen for HoS.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: hos_pen
+
+- type: entity
+  name: CMO's pen
+  parent: Pen
+  id: CMOPen
+  description: A dark ink pen for CMO.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: cmo_pen
+
+- type: entity
+  name: CE's pen
+  parent: Pen
+  id: CEPen
+  description: A dark ink pen for CE.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: ce_pen
+
+- type: entity
+  name: RD's pen
+  parent: Pen
+  id: RDPen
+  description: A dark ink pen for RD.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: rd_pen
+
+- type: entity
+  name: QM's pen
+  parent: Pen
+  id: QMPen
+  description: A dark ink pen for QM.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: qm_pen
+
+- type: entity
+  name: Security pen
+  parent: Pen
+  id: SecPen
+  description: A dark ink pen for security.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: sec_pen
+
+- type: entity
+  name: Medical pen
+  parent: Pen
+  id: MedPen
+  description: A dark ink pen for medical doctor.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: med_pen
+
+- type: entity
+  name: Chemical pen
+  parent: Pen
+  id: ChemPen
+  description: A dark ink pen for chemist.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: chem_pen
+
+- type: entity
+  name: Engineering pen
+  parent: Pen
+  id: EngPen
+  description: A dark ink pen for engineers.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: eng_pen
+
+- type: entity
+  name: scientist pen
+  parent: Pen
+  id: RnDPen
+  description: A dark ink pen for scientist.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: RnD_pen
+
+- type: entity
+  name: Cargo pen
+  parent: Pen
+  id: CargoPen
+  description: A dark ink pen for cargonia.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: cargo_pen
+
+- type: entity
+  name: Black pen
+  parent: Pen
+  id:  BlackPen
+  description: A dark ink pen for NT legal department.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: agent_pen
+
+- type: entity
+  name: Blue pen
+  parent: Pen
+  id: BluePen
+  description: A blue pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: blue_pen
+
+- type: entity 
+  name: Yellow pen
+  parent: Pen
+  id: YellowPen
+  description: A yellow pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: yellow_pen
+
+- type: entity 
+  name: Green pen
+  parent: Pen
+  id: GreenPen
+  description: A green pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: green_pen
+
+- type: entity 
+  name: Pink pen
+  parent: Pen
+  id: PinkPen
+  description: A pink pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: pink_pen
+
+- type: entity 
+  name: Purple pen
+  parent: Pen
+  id: PurplePen
+  description: A purple pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: purple_pen
+
+- type: entity 
+  name: Space pen
+  parent: Pen
+  id: SpacePen
+  description: A nice pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: space_pen
+
+- type: entity 
+  name: Fish pen
+  parent: Pen
+  id: FishPen
+  description: A nice pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: fish_pen
+
+- type: entity 
+  name: Rainbow pen
+  parent: Pen
+  id: RainbowPen
+  description: A rainbow pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: rainbow_pen
+
+- type: entity 
+  name: Love pen
+  parent: Pen
+  id: LovePen
+  description: A pen designed by PlayGamma.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/pens.rsi
+    state: love_pen
