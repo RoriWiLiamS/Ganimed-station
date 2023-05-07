@@ -1,33 +1,4 @@
 Entries:
-- author: randy
-  changes:
-  - {message: all heads of staff now have flashes in their bag for self defence, type: Add}
-  id: 3189
-  time: '2023-03-15T04:37:50.0000000+00:00'
-- author: not-gavnaed
-  changes:
-  - {message: Added Station Records Computer on Aspid & Bagel, type: Add}
-  id: 3190
-  time: '2023-03-15T23:50:08.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: Some forms of healing will no longer unexpectedly affect bleeding.,
-    type: Fix}
-  - {message: 'Bleeding and bloodloss damage is now more relevant, and you should
-      expect to encounter it in medical more often', type: Tweak}
-  id: 3191
-  time: '2023-03-16T22:27:28.0000000+00:00'
-- author: Slava0135
-  changes:
-  - {message: 'Solar flare lost it''s ability to manipulate mechanical doors, curtains
-      and firelocks. Now it only affects autoclosing airlocks.', type: Fix}
-  id: 3192
-  time: '2023-03-18T10:57:38.0000000+00:00'
-- author: 778b
-  changes:
-  - {message: Added IFF console boards!, type: Add}
-  id: 3193
-  time: '2023-03-19T00:55:54.0000000+00:00'
 - author: mirrorcult
   changes:
   - {message: All entity storage now has a roughly 2.5x higher air capacity., type: Tweak}
@@ -2910,3 +2881,34 @@ Entries:
   - {message: Added diagonal walls made of plasttitanium and solid wall!, type: Add}
   id: 3688
   time: '2023-05-07T00:36:39.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: Explosions and other forces should no longer stop projectiles midair.,
+    type: Fix}
+  id: 3689
+  time: '2023-05-07T02:57:23.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: Added the water gun crate to cargo. Happy spraying., type: Add}
+  id: 3690
+  time: '2023-05-07T03:14:54.0000000+00:00'
+- author: brainfood1183
+  changes:
+  - {message: Monkeys can now wear jumpsuits and jumpskirts (no pockets only pda slot).,
+    type: Add}
+  - {message: security are now authorized to handcuff monkeys., type: Add}
+  - {message: clowns are encouraged to creampie monkeys., type: Add}
+  - {message: Monkeys may now wear soft EVA suits., type: Add}
+  id: 3691
+  time: '2023-05-07T03:24:44.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Cursor item overlay no longer draws in the top-left when cursor offscreen.,
+    type: Fix}
+  id: 3692
+  time: '2023-05-07T03:37:05.0000000+00:00'
+- author: Whisper
+  changes:
+  - {message: Health analyzers and cloth now fit in medical belts., type: Add}
+  id: 3693
+  time: '2023-05-07T03:52:00.0000000+00:00'
