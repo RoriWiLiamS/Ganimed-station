@@ -1,16 +1,4 @@
 Entries:
-- author: Scribbles0
-  changes:
-  - {message: Nukeops now uses your selected character's appearance and species. Nukeop
-      names are still randomized., type: Tweak}
-  id: 3199
-  time: '2023-03-20T00:48:06.0000000+00:00'
-- author: deltanedas
-  changes:
-  - {message: Bames Jond from the Syndicate has added his exploding pen to the uplink.,
-    type: Add}
-  id: 3200
-  time: '2023-03-20T19:32:29.0000000+00:00'
 - author: metalgearsloth
   changes:
   - {message: Fix melee arcs showing up in the context menu., type: Fix}
@@ -2913,3 +2901,14 @@ Entries:
   - {message: fixed pinpointer screen not being visible in dark!, type: Fix}
   id: 3698
   time: '2023-05-07T08:20:44.0000000+00:00'
+- author: lzk228
+  changes:
+  - {message: Telecommunication server added to CentComm station, type: Add}
+  id: 3699
+  time: '2023-05-07T10:06:05.0000000+00:00'
+- author: lzk
+  changes:
+  - {message: Added xeno plushie! Hisssss!, type: Add}
+  - {message: Plushie crate can have either a gray or blue shark, type: Tweak}
+  id: 3700
+  time: '2023-05-07T22:50:09.0000000+00:00'
