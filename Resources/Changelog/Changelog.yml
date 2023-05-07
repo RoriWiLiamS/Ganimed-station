@@ -1,21 +1,4 @@
 Entries:
-- author: metalgearsloth
-  changes:
-  - {message: Puddles now use water footsteps., type: Tweak}
-  id: 3186
-  time: '2023-03-15T01:34:38.0000000+00:00'
-- author: ElectroJr
-  changes:
-  - {message: Fixed weldable entities becoming stuck in an un-weldable state., type: Fix}
-  - {message: Fixed tile placement sometimes placing two tiles in one click., type: Fix}
-  id: 3187
-  time: '2023-03-15T02:05:53.0000000+00:00'
-- author: ElectroJr
-  changes:
-  - {message: Fixed a bug that caused several DoAfters (the delayed actions with the
-      progress bar) to stop working., type: Fix}
-  id: 3188
-  time: '2023-03-15T04:07:16.0000000+00:00'
 - author: randy
   changes:
   - {message: all heads of staff now have flashes in their bag for self defence, type: Add}
@@ -2910,3 +2893,20 @@ Entries:
   - {message: Changed size for additional combat mode indicators., type: Tweak}
   id: 3685
   time: '2023-05-06T16:07:55.0000000+00:00'
+- author: Mumohan
+  changes:
+  - {message: Nukies can no longer buy uplink implanters to access agent-only offers.,
+    type: Fix}
+  id: 3686
+  time: '2023-05-06T19:10:47.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: 'Fixed a bug causing screen overlays (flashbang, admin HUD, etc) to
+      sometimes not get drawn.', type: Fix}
+  id: 3687
+  time: '2023-05-06T23:46:16.0000000+00:00'
+- author: PuroSlavKing
+  changes:
+  - {message: Added diagonal walls made of plasttitanium and solid wall!, type: Add}
+  id: 3688
+  time: '2023-05-07T00:36:39.0000000+00:00'
