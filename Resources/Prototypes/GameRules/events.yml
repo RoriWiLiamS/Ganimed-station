@@ -68,6 +68,18 @@
   - type: DragonRule
 
 - type: entity
+  id: NinjaSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 10
+    duration: 1
+    earliestStart: 60
+    minimumPlayers: 15
+  - type: NinjaSpawnRule
+
+- type: entity
   id: RevenantSpawn
   parent: BaseGameRule
   noSpawn: true

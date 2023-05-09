@@ -487,7 +487,6 @@ namespace Content.Shared.Interaction
             // Have to be on same map regardless.
             if (other.MapId != origin.MapId)
                 return false;
-
             var dir = other.Position - origin.Position;
             var length = dir.Length;
 
