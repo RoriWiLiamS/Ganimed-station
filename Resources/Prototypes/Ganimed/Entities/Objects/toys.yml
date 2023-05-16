@@ -1,0 +1,138 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieChiefMedicalOfficer
+  name: chief medical officer plushie
+  description: A cute toy that resembles a worker in NanoTrasen-issued chief medical officer suit. Unfortunately, won\'t organise your med workflow.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: mira
+  - type: Extractable
+    grindableSolutionName: cmo
+  - type: SolutionContainerManager
+    solutions:
+      cmo:
+        reagents:
+          - ReagentId: Tricordrazine
+            Quantity: 10
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieQuartermaster
+  name: quartermaster plushie
+  description: A cute toy of a 100% real NanoTrasen worker in a full-body suit and a quartermaster outfit. Rest assured of it\'s loyalty to the company.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: qm
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieHeadOfSecurity
+  name: head of security plushie
+  description: A cute toy of a NanoTrasen security officer styled as a head of security. One look is enough to get a sense of pride for the man.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: morgan
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieCaptain
+  name: NanoTrasen captain plushie
+  description: A plushie of a red-hair NanoTrasen worker. You can be sure it\'s a captain. A sense of terror is emanating from the plushie.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: mensk
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieServiceWorker
+  name: service worker plushie
+  description: A cute toy of a bartender. It looks warm and comforting.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: ave
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieMedicalWorker
+  name: medical worker plushie
+  description: An adorable toy of a medical worker. A look to follow if you want to be a professional medic.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: calisto
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieInternalAffairsAgent
+  name: internal affairs agent plushie
+  description: A toy of a NanoTrasen legal department agent. A grim reminder of what could have been.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: erhard
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieBartenderSlime1
+  name: slime bartender plushie
+  description: A cute toy of a slime bartender. Used as a key in a NanoTrasen interspecies communications project. May it offer you a drink in the trying times.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: kiss_1
+  - type: Extractable
+    grindableSolutionName: slime
+  - type: SolutionContainerManager
+    solutions:
+      cmo:
+        reagents:
+          - ReagentId: Slime
+            Quantity: 10
+
+- type: entity
+  parent: PlushieBartenderSlime1
+  id: PlushieBartenderSlime2 
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: kiss_2
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieLizardQM
+  name: lizardperson quartermaster plushie
+  description: A modification to the NanoTrasen-issued lizardperson plushie. Looks like it is wearing a quartermaster uniform. Say \"No\" to power positions racism.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: graff
+
+- type: entity
+  name: Ganimed Plushies Spawner
+  id: GanimedPlushiesSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: Ganimed/Objects/plushies.rsi
+          state: mira
+    - type: RandomSpawner
+      prototypes:
+        - PlushieLizardQM
+        - PlushieBartenderSlime2
+        - PlushieBartenderSlime1
+        - PlushieInternalAffairsAgent
+        - PlushieMedicalWorker
+        - PlushieServiceWorker
+        - PlushieCaptain
+        - PlushieHeadOfSecurity
+        - PlushieQuartermaster
+        - PlushieChiefMedicalOfficer
+      chance: 1
+      offset: 0.2

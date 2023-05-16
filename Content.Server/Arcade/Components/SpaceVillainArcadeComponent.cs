@@ -48,7 +48,7 @@ namespace Content.Server.Arcade.Components
         private List<string> _possibleLastEnemyNames = new List<string>()
         {
             "Melonoid", "Murdertron", "Sorcerer", "Ruin", "Jeff", "Ectoplasm", "Crushulon", "Uhangoid",
-            "Vhakoid", "Peteoid", "slime", "Griefer", "ERPer", "Lizard Man", "Unicorn"
+            "Vhakoid", "Peteoid", "slime", "Griefer", "ERPer", "Lizard Man", "Unicorn", "temporaldarkness"
         };
         [ViewVariables(VVAccess.ReadWrite)]
         [DataField("possibleRewards", customTypeSerializer:typeof(PrototypeIdListSerializer<EntityPrototype>))]
@@ -60,7 +60,9 @@ namespace Content.Server.Arcade.Components
             "FoamCrossbow", "RevolverCapGun", "PlushieLizard", "PlushieAtmosian", "PlushieSpaceLizard",
             "PlushieNuke", "PlushieCarp", "PlushieRatvar", "PlushieNar", "PlushieSnake", "Basketball", "Football",
             "PlushieRouny", "PlushieBee", "PlushieSlime", "BalloonCorgi", "ToySword", "CrayonBox", "BoxDonkSoftBox", "BoxCartridgeCap",
-            "HarmonicaInstrument", "OcarinaInstrument", "RecorderInstrument", "GunpetInstrument", "BirdToyInstrument", "PlushieXeno"
+            "HarmonicaInstrument", "OcarinaInstrument", "RecorderInstrument", "GunpetInstrument", "BirdToyInstrument", "PlushieXeno", 
+			"PlushieBartenderSlime2", "PlushieLizardQM", "PlushieBartenderSlime1", "PlushieInternalAffairsAgent", "PlushieMedicalWorker",
+			"PlushieServiceWorker", "PlushieCaptain", "PlushieHeadOfSecurity", "PlushieQuartermaster", "PlushieChiefMedicalOfficer"
         };
 
         [DataField("rewardMinAmount")]

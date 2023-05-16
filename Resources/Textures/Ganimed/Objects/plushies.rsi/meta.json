@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Sprites by Kiss for Ganimed server personal use",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {"name": "calisto"},
+    {"name": "erhard"},
+    {"name": "ave"},
+    {"name": "graff"},
+    {"name": "kiss_1"},
+    {"name": "kiss_2"},
+	{"name": "mensk"},
+    {"name": "mira"},
+    {"name": "morgan"},
+    {"name": "qm"}
+  ]
+}
