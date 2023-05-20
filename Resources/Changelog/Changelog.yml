@@ -1,43 +1,4 @@
 Entries:
-- author: metalgearsloth
-  changes:
-  - {message: Temporarily removed interior IFF drawing due to seams in rendering.,
-    type: Tweak}
-  id: 3317
-  time: '2023-04-03T05:46:29.0000000+00:00'
-- author: Whisper
-  changes:
-  - {message: The cautery now functions! It can be used to close bleeding wounds.
-      (Use it as a melee), type: Add}
-  - {message: Added the blood pack! This item will very lightly reduce bleeding and
-      restore 10 blood to the patient. It has been added to most first aid kits and
-      medical spawns., type: Add}
-  - {message: Passive bleeding now properly exists! You can bleed at a maximum of
-      20u every 5 seconds., type: Add}
-  - {message: Critical bleed hit chance has been reduced. you shouldn't be dying from
-      this as often anymore. It's the original reason why we thought bleeding was
-      overpowered., type: Fix}
-  - {message: Iron has been tweaked to restore double the blood per unit. 50u iron
-      pills will no longer be needed ideally., type: Tweak}
-  id: 3318
-  time: '2023-04-03T05:59:51.0000000+00:00'
-- author: Naive817
-  changes:
-  - {message: Holobarrier projectors are now available to HoS and warden. It can make
-      soild but fragile holographic barriers to keep the crew from interfering with
-      the execution of the clown., type: Add}
-  id: 3319
-  time: '2023-04-03T06:20:15.0000000+00:00'
-- author: lzk
-  changes:
-  - {message: Added scientific beret, type: Add}
-  id: 3320
-  time: '2023-04-03T06:23:29.0000000+00:00'
-- author: PuroSlavKing
-  changes:
-  - {message: Added watermelon helmet., type: Add}
-  id: 3321
-  time: '2023-04-03T06:25:14.0000000+00:00'
 - author: Potato1234_x
   changes:
   - {message: Nanotrasen has supplied engineering departments with high capacity fuel
@@ -2910,3 +2871,30 @@ Entries:
     type: Tweak}
   id: 3816
   time: '2023-05-19T10:21:36.0000000+00:00'
+- author: Jackal298
+  changes:
+  - {message: updated sprites for changeling's sting drink, type: Tweak}
+  id: 3817
+  time: '2023-05-19T20:11:25.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: Bags of holding now are significantly more expensive to produce., type: Tweak}
+  id: 3818
+  time: '2023-05-20T00:59:07.0000000+00:00'
+- author: WlarusFromDaSpace
+  changes:
+  - {message: The sad trombone implant now correctly only triggers whenever a mob
+      dies, type: Fix}
+  id: 3819
+  time: '2023-05-20T01:15:18.0000000+00:00'
+- author: MrGreen and OctoRocket
+  changes:
+  - {message: Added tons more scarfs for you to enjoy at your departments!, type: Add}
+  id: 3820
+  time: '2023-05-20T01:15:32.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - {message: Tech disks no longer contain exclusive discipline technology., type: Fix}
+  - {message: Printing tech disks now costs fewer points., type: Tweak}
+  id: 3821
+  time: '2023-05-20T02:10:29.0000000+00:00'
