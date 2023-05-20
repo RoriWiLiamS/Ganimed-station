@@ -1,26 +1,4 @@
 Entries:
-- author: Potato1234_x
-  changes:
-  - {message: Nanotrasen has supplied engineering departments with high capacity fuel
-      tanks., type: Add}
-  id: 3322
-  time: '2023-04-03T06:26:58.0000000+00:00'
-- author: PuroSlavKing
-  changes:
-  - {message: 'Changed access to fire axe cabinet, now not only an atmospheric technician
-      can get a fire axe.', type: Tweak}
-  id: 3323
-  time: '2023-04-03T06:27:45.0000000+00:00'
-- author: PuroSlavKing
-  changes:
-  - {message: Added robust nukie drink to vending machine cola., type: Add}
-  id: 3324
-  time: '2023-04-03T06:42:37.0000000+00:00'
-- author: Whisper
-  changes:
-  - {message: Added new blood pack sprite!, type: Add}
-  id: 3325
-  time: '2023-04-03T07:50:33.0000000+00:00'
 - author: metalgearsloth
   changes:
   - {message: Fix shuttle airlocks., type: Fix}
@@ -2898,3 +2876,27 @@ Entries:
   - {message: Printing tech disks now costs fewer points., type: Tweak}
   id: 3821
   time: '2023-05-20T02:10:29.0000000+00:00'
+- author: Slava0135
+  changes:
+  - {message: added space glue tube (can appear in maintenance lockers), type: Add}
+  id: 3822
+  time: '2023-05-20T02:42:38.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fix fire stacks not spreading to other players., type: Fix}
+  id: 3823
+  time: '2023-05-20T03:34:41.0000000+00:00'
+- author: Jackal298
+  changes:
+  - {message: the sprite of a doll with a skull bandana is now showing the skull,
+    type: Tweak}
+  id: 3824
+  time: '2023-05-20T19:46:10.0000000+00:00'
+- author: tom-leys
+  changes:
+  - {message: 'Spacing takes a short time to occur, rather than being totally instant.
+      The decompression will make you cold.', type: Add}
+  - {message: 'Ripped tiles during spacing reflect the wind that passed through that
+      area, ripped tiles tend to be concentrated around the breach.', type: Tweak}
+  id: 3825
+  time: '2023-05-20T19:53:04.0000000+00:00'
