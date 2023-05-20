@@ -53,6 +53,7 @@
   - AutolatheMachineCircuitboard
   - CircuitImprinterMachineCircuitboard
   - MaterialReclaimerMachineCircuitboard
+  - PaperPrinterCircuitboard # Corvax feature
 
 - type: technology
   id: PowerGeneration

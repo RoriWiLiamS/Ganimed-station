@@ -1,0 +1,15 @@
+- type: material
+  id: Paper
+  stackEntity: SheetPaper1
+  name: materials-paper
+  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: paper }
+  color: "#fff7f2"
+  price: 0.1
+
+- type: material
+  id: Ink
+  stackEntity: SheetInk1
+  name: materials-ink
+  icon: { sprite: Corvax/Objects/Materials/Sheets/other.rsi, state: ink }
+  color: "#454642"
+  price: 0.1
