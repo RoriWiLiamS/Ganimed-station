@@ -208,6 +208,8 @@
     - type: SubdermalImplant
       permanent: true
       implantAction: ActivateChangelingShop
+    - type: Item
+      size: 9999
     - type: UserInterface
       interfaces:
       - key: enum.StoreUiKey.Key

@@ -29,25 +29,25 @@ public sealed class ChangelingComponent : Component
     /// Starting chemicals that the changeling will have at the start, they can be spent on using abilities
     /// </summary>
     [DataField("startingChemicals")]
-    public int StartingChemicals = 10;
+    public int StartingChemicals = 750;
 
     /// <summary>
     /// Chemical regeneration rate per X seconds
     /// </summary>
     [DataField("chemicalRegenRate")]
-    public int ChemicalRegenRate = 1;
+    public int ChemicalRegenRate = 10;
 
     /// <summary>
     /// Chemical regeneration regeneration time in seconds
     /// </summary>
     [DataField("chemicalRegenTime")]
-    public float ChemicalRegenTime = 2f;
+    public float ChemicalRegenTime = 20f;
 
     /// <summary>
     /// Chemical amount limit
     /// </summary>
     [DataField("chemicalRegenCap")]
-    public float ChemicalRegenCap = 75;
+    public float ChemicalRegenCap = 750;
 
     /// <summary>
     /// DNA strands amount limit
@@ -65,7 +65,7 @@ public sealed class ChangelingComponent : Component
     /// Chemicals balance
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("chemicalBalance")]
-    public int ChemicalBalance = 0;
+    public int ChemicalBalance = 750;
 
     /// <summary>
     /// Points balace

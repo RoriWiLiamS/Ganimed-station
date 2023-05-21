@@ -8,7 +8,7 @@ action-dna-sting-name = Жало ДНК
 action-dna-sting-description = Собирает ДНК цели.
 
 action-fleshmend-name = Восстановление плоти
-action-fleshmend-description = Исцелите себя со временем.
+action-fleshmend-description = Исцелите себя со временем(временно не работает).
 
 action-transform-name = Трансформация
 action-transform-description = Измените свою физическую структуру на структуру другого человека.
