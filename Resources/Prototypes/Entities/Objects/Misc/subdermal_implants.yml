@@ -194,3 +194,30 @@
         - SubdermalImplant
         - HideContextMenu
         - MacroBomb
+
+
+#Changeling implants
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: ChangelingShopImplant
+  name: Имплантер генокрада
+  description: Станьте генокрадом
+  noSpawn: true
+  components:
+    - type: SubdermalImplant
+      permanent: true
+      implantAction: ActivateChangelingShop
+    - type: Item
+      size: 9999
+    - type: UserInterface
+      interfaces:
+      - key: enum.StoreUiKey.Key
+        type: StoreBoundUserInterface
+    - type: ActivatableUI
+      key: enum.StoreUiKey.Key
+    - type: Store
+      categories:
+      - ChangelingAbilities
+      currencyWhitelist:
+      - Points

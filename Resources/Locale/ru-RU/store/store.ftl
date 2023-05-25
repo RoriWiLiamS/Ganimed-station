@@ -5,3 +5,5 @@ store-ui-price-display = { $amount } { $currency }
 store-ui-traitor-flavor = Копирайт (C) NT -30643
 store-ui-traitor-warning = Оперативники должны блокировать свои аплинки после использования во избежание обнаружения.
 store-withdraw-button-ui = Вывести { $currency }
+activate-changeling-shop-action-name = Меню эволюции
+activate-changeling-shop-action-description = Выберите способности, которые у вас будут.
