@@ -138,6 +138,50 @@
   - type: AccessReader
     access: [ [ "Atmospherics" ] ]
 
+- type: entity
+  id: LockerLegal
+  parent: LockerBase
+  name: lawyer's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: legal
+      state_open: legal_open
+      state_closed: legal_door
+  - type: AccessReader
+    access: [ [ "Legal" ] ]
+
+- type: entity
+  id: LockerIAA
+  parent: LockerBase
+  name: internal affairs agent's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: iaa
+      state_open: iaa_open
+      state_closed: iaa_door
+  - type: AccessReader
+    access: [ [ "IAA" ] ]
+
+- type: entity
+  id: LockerMaid
+  parent: LockerBase
+  name: maid's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: maid
+      state_open: maid_open
+      state_closed: maid_door
+  - type: AccessReader
+    access: [ [ "Maid" ] ]
+
+
+
 # Engineer
 - type: entity
   id: LockerEngineer

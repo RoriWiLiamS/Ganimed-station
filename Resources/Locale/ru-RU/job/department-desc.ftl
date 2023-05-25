@@ -4,5 +4,6 @@ department-Command-description = Управляйте экипажем и обе
 department-Engineering-description = Поддерживайте станцию в рабочем состоянии.
 department-Medical-description = Поддерживайте здоровье экипажа.
 department-Security-description = Поддерживайте порядок на станции.
+department-Legal-description = Следите за соблюдением закона на станции.
 department-Science-description = Изучайте новые технологии и опасные артефакты.
 department-Specific-description = Должности, которые есть не на всех станциях.

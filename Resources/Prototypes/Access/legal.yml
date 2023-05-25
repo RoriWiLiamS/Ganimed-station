@@ -1,0 +1,13 @@
+- type: accessLevel
+  id: IAA
+  name: id-card-access-level-iaa
+
+- type: accessLevel
+  id: Legal
+  name: id-card-access-level-legal
+
+- type: accessGroup
+  id: Legal
+  tags:
+  - IAA
+  - Legal

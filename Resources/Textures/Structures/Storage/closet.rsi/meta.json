@@ -53,6 +53,33 @@
       "name": "atmos_open"
     },
     {
+      "name": "maid"
+    },
+    {
+      "name": "maid_door"
+    },
+    {
+      "name": "maid_open"
+    },
+    {
+      "name": "iaa"
+    },
+    {
+      "name": "iaa_door"
+    },
+    {
+      "name": "iaa_open"
+    },
+    {
+      "name": "legal"
+    },
+    {
+      "name": "legal_door"
+    },
+    {
+      "name": "legal_open"
+    },
+    {
       "name": "atmos_wardrobe_door"
     },
     {

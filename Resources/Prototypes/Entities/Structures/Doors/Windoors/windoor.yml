@@ -63,6 +63,14 @@
 
 - type: entity
   parent: Windoor
+  id: WindoorMaidLocked
+  suffix: Maid, Locked
+  components:
+  - type: AccessReader
+    access: [["Maid"]]
+
+- type: entity
+  parent: Windoor
   id: WindoorKitchenLocked
   suffix: Kitchen, Locked
   components:
@@ -198,6 +206,22 @@
   components:
   - type: AccessReader
     access: [["Security"]]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorLegalLocked
+  suffix: Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
+
+- type: entity
+  parent: WindoorLegalLocked
+  id: WindoorIAALocked
+  suffix: IAA, Locked
+  components:
+  - type: AccessReader
+    access: [["IAA"]]
 
 - type: entity
   parent: WindoorSecure

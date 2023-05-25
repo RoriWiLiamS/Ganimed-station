@@ -1344,7 +1344,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [["Brig"]]
+    access: [["Legal"]]
 
 - type: entity
   parent: VendingMachine
@@ -1633,6 +1633,32 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
     access: [["Janitor"]]
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineMaidRobe
+  name: MaidRobe
+  description: A cutesy-looking vending machine for all your kawaii needs.
+  components:
+  - type: VendingMachine
+    pack: MaidRobeInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: MaidRobeAds
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/maidrobe.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Maid"]]
 
 - type: entity
   parent: VendingMachine

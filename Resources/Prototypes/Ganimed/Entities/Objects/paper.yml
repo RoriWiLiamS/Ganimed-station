@@ -1,0 +1,23 @@
+- type: entity
+  name: internal affairs agent's rubber stamp
+  parent: RubberStampMime
+  id: RubberStampIAA
+  components:
+    - type: Stamp
+      stampedName: stamp-component-stamped-name-iaa
+      stampState: "paper_stamp-iaa"
+    - type: Sprite
+      sprite: Objects/Misc/bureaucracy.rsi
+      state: stamp-iaa
+
+- type: entity
+  name: legal department's rubber stamp
+  parent: RubberStampMime
+  id: RubberStampLegal
+  components:
+    - type: Stamp
+      stampedName: stamp-component-stamped-name-legal
+      stampState: "paper_stamp-legal"
+    - type: Sprite
+      sprite: Objects/Misc/bureaucracy.rsi
+      state: stamp-legal

@@ -258,6 +258,83 @@
     Cloth: 300
 
 - type: latheRecipe
+  id: ClothingUniformJumpskirtLawyerBlack
+  result: ClothingUniformJumpskirtLawyerBlack
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitLawyerRed
+  result: ClothingUniformJumpsuitLawyerRed
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtLawyerRed
+  result: ClothingUniformJumpskirtLawyerRed
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitLawyerBlue
+  result: ClothingUniformJumpsuitLawyerBlue
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtLawyerBlue
+  result: ClothingUniformJumpskirtLawyerBlue
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitLawyerPurple
+  result: ClothingUniformJumpsuitLawyerPurple
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtLawyerPurple
+  result: ClothingUniformJumpskirtLawyerPurple
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitLawyerGood
+  result: ClothingUniformJumpsuitLawyerGood
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtLawyerGood
+  result: ClothingUniformJumpskirtLawyerGood
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtJanimaid
+  result: ClothingUniformJumpskirtJanimaid
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtJanimaidmini
+  result: ClothingUniformJumpskirtJanimaidmini
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
   id: ClothingUniformJumpsuitLibrarian
   result: ClothingUniformJumpsuitLibrarian
   completetime: 4

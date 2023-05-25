@@ -103,6 +103,7 @@
     - SciDrobeInventory
     - SecDrobeInventory
     - ViroDrobeInventory
+    - MaidRobeInventory
   - type: Sprite
     layers:
     - state: base

@@ -20,7 +20,7 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
+  - StationMaid
   - Librarian
   - MedicalIntern
   - Mime
@@ -44,6 +44,7 @@
   - ChiefMedicalOfficer
   - HeadOfPersonnel
   - HeadOfSecurity
+  - IAA
   - ResearchDirector
   - Quartermaster
 
@@ -81,8 +82,16 @@
   - Warden
 
 - type: department
+  id: Legal
+  description: department-Legal-description
+  color: "#4BBB93"
+  roles:
+  - IAA
+  - Lawyer
+
+- type: department
   id: Science
-  description: department-Command-description
+  description: department-Science-description
   color: "#D381C9"
   roles:
   - ResearchDirector
@@ -98,3 +107,4 @@
   - Reporter
   - Zookeeper
   - Psychologist
+  - StationMaid

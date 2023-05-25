@@ -32,6 +32,35 @@
 
 - type: entity
   parent: ClothingHeadset
+  id: ClothingHeadsetLegal
+  name: legal department headset
+  description: A headset for the ever-bureaucratic legal department.
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+        - EncryptionKeyLegalSecurity
+        - EncryptionKeyCommon
+    - type: Sprite
+      sprite: Ganimed/Clothing/Ears/Headsets/legal.rsi
+    - type: Clothing
+      sprite: Ganimed/Clothing/Ears/Headsets/legal.rsi
+
+- type: entity
+  parent: ClothingHeadsetLegal
+  id: ClothingHeadsetIAA
+  name: iaa headset
+  description: A headset for internal affairs agent to hear the captain's last words.
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+        - EncryptionKeyLegalSecurity
+        - EncryptionKeyCommand
+        - EncryptionKeyCommon
+
+- type: entity
+  parent: ClothingHeadset
   id: ClothingHeadsetCargo
   name: cargo headset
   description: A headset used by supply employees.

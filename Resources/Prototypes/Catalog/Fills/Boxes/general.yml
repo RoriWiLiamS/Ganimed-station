@@ -368,6 +368,16 @@
         amount: 6
 
 - type: entity
+  name: legal encryption key box
+  parent: BoxEncryptionKeyPassenger
+  id: BoxEncryptionKeyLegal
+  components:
+  - type: StorageFill
+    contents:
+      - id: EncryptionKeyLegal
+        amount: 6
+
+- type: entity
   name: service encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyService

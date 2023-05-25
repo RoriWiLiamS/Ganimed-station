@@ -1,0 +1,22 @@
+- type: entity
+  parent: AdminObserver
+  save: false
+  id: temporaldarknessAdminObserver
+  name: admin observer
+  noSpawn: true
+  description: temporaldarkness
+  components:
+  - type: Sprite
+    overrideContainerOcclusion: true # Ghosts always show up regardless of where they're contained.
+    netsync: false
+    noRot: true
+    drawdepth: Ghosts
+    sprite: Mobs/Ghosts/ghost_paywall.rsi
+    state: temporaldarkness-directions
+    color: "#fffa"
+    layers:
+      - state: temporaldarkness-directions
+        shader: unshaded
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 13
+    baseWalkSpeed: 9

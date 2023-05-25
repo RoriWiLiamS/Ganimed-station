@@ -1,0 +1,49 @@
+- type: entity
+  id: LockerLegalFilled
+  suffix: Filled
+  parent: LockerLegal
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingEyesGlassesSunglasses
+      - id: ClothingHandsGlovesColorWhite
+      - id: RubberStampLegal
+      - id: BriefcaseIAAFilled
+      - id: ClothingNeckLawyerbadge
+      - id: ClothingShoesBootsLaceup
+      - id: Flash
+      - id: ClothingHeadsetLegal
+      - id: FlashlightSeclite
+        prob: 0.3
+      
+      - id: ClothingUniformJumpskirtLawyerBlack
+        prob: 0.30
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerGood
+        prob: 0.10
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerRed
+        prob: 0.25
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerBlue
+        prob: 0.25
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerPurple
+        prob: 0.10
+        orGroup: Skirt
+      
+      - id: ClothingUniformJumpsuitLawyerBlack
+        prob: 0.30
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerGood
+        prob: 0.10
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerRed
+        prob: 0.25
+        orGroup: Suit
+      - id: ClothingUniformJumpsuittLawyerBlue
+        prob: 0.25
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerPurple
+        prob: 0.10
+        orGroup: Suit

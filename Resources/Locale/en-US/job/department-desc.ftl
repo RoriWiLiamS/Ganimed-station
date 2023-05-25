@@ -4,5 +4,6 @@ department-Command-description = Manage the crew and keep them working efficient
 department-Engineering-description = Keep the station operational.
 department-Medical-description = Keep the crew healthy.
 department-Security-description = Keep the peace around the station.
+department-Legal-description = Supervise the compliance with space law.
 department-Science-description = Research new technologies and dangerous artifacts.
 department-Specific-description = Jobs that not all stations have.

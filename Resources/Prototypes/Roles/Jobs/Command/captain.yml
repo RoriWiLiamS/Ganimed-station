@@ -13,6 +13,9 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 18000
+    - !type:DepartmentTimeRequirement
+      department: Legal
+      time: 18000
     - !type:OverallPlaytimeRequirement
       time: 108000
   weight: 20

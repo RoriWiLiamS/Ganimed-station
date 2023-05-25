@@ -28,6 +28,22 @@
 
 - type: entity
   parent: ClothingHeadsetAlt
+  id: ClothingHeadsetAltLegal
+  name: iaa's over-ear headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyLegalSecurity
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Ganimed/Clothing/Ears/Headsets/legal.rsi
+  - type: Clothing
+    sprite: Ganimed/Clothing/Ears/Headsets/legal.rsi
+
+- type: entity
+  parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentCom
   name: CentCom over-ear headset
   components:

@@ -26,6 +26,10 @@
   id: Chapel
   name: id-card-access-level-chapel
 
+- type: accessLevel
+  id: Maid
+  name: id-card-access-level-maid
+
 - type: accessGroup
   id: Service
   tags:
@@ -37,3 +41,4 @@
   - Janitor
   - Theatre
   - Chapel
+  - Maid

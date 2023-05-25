@@ -117,7 +117,7 @@
     contents:
       - id: MedkitFilled
       - id: ClothingHandsGlovesNitrile
-      #- name: ClothingEyesHudMedical #Removed until working properly
+      - id: ClothingEyesHudMedical
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
       - id: ClothingBackpackDuffelSurgeryFilled
@@ -199,3 +199,61 @@
       - id: SecurityTechFabCircuitboard
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
+
+- type: entity
+  id: LockerIAAFilled
+  suffix: Filled
+  parent: LockerIAA
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponDisabler
+      - id: ClothingEyesGlassesSunglasses
+      - id: ClothingHandsGlovesColorWhite
+      - id: ClothingOuterRobesJudge
+      - id: RubberStampIAA
+      - id: RubberStampLegal
+      - id: BriefcaseIAAFilled
+      - id: ClothingNeckLawyerbadge
+      - id: ClothingShoesBootsLaceup
+      - id: Flash
+      - id: ClothingOuterVestKevlar
+      - id: ClothingHeadsetAltLegal
+      - id: ClothingHeadsetIAA
+      - id: BoxEncryptionKeyLegal
+      - id: ClothingNeckLegalmedal
+      - id: FlashlightSeclite
+        prob: 0.3
+      - id: DoorRemoteLegal
+      
+      - id: ClothingUniformJumpskirtLawyerBlack
+        prob: 0.40
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerGood
+        prob: 0.20
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerRed
+        prob: 0.15
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerBlue
+        prob: 0.15
+        orGroup: Skirt
+      - id: ClothingUniformJumpskirtLawyerPurple
+        prob: 0.10
+        orGroup: Skirt
+      
+      - id: ClothingUniformJumpsuitLawyerBlack
+        prob: 0.40
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerGood
+        prob: 0.20
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerRed
+        prob: 0.15
+        orGroup: Suit
+      - id: ClothingUniformJumpsuittLawyerBlue
+        prob: 0.15
+        orGroup: Suit
+      - id: ClothingUniformJumpsuitLawyerPurple
+        prob: 0.10
+        orGroup: Suit

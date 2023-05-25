@@ -49,6 +49,13 @@
   color: "#dd3535"
 
 - type: radioChannel
+  id: Legal
+  name: chat-radio-legal
+  keycode: 'ю'
+  frequency: 1341
+  color: "#50c89b"
+
+- type: radioChannel
   id: Service
   name: chat-radio-service
   keycode: 'с'

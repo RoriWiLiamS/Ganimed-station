@@ -1,0 +1,37 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckMaidPin
+  name: maid pin
+  description: Fine display of your affiliation with station maids. Be proud of your position as you are a treasure to an entire station!
+  components:
+  - type: Sprite
+    sprite: Ganimed/Clothing/Neck/maidpin.rsi
+    layers:
+    - state: maid
+  - type: Clothing
+    sprite: Ganimed/Clothing/Neck/maidpin.rsi
+    clothingVisuals:
+      neck:
+      - state: maid-equipped
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieLegal
+  name: legal department tie
+  description: A neo-silk tie of an eye-burning cyan color. Awful taste.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Clothing/Neck/lawtie.rsi
+  - type: Clothing
+    sprite: Ganimed/Clothing/Neck/lawtie.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckLegalmedal
+  name: legal medal
+  description: Given to the most tedious of them all. Clearly a controversial thing to have.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Clothing/Neck/legalmedal.rsi
+  - type: Clothing
+    sprite: Ganimed/Clothing/Neck/legalmedal.rsi

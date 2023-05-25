@@ -4,5 +4,6 @@ department-Command = Командование
 department-Engineering = Инженерный отдел
 department-Medical = Медицинский отдел
 department-Security = Служба безопасности
+department-Legal = Юридический отдел
 department-Science = Научный отдел
 department-Specific = На определённых станциях

@@ -80,6 +80,14 @@
 
 - type: entity
   parent: Airlock
+  id: AirlockLegal
+  suffix: Legal
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/legal.rsi
+
+- type: entity
+  parent: Airlock
   id: AirlockMaint
   name: maintenance hatch
   components:
@@ -214,5 +222,15 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/security.rsi
+  - type: PaintableAirlock
+    group: Glass
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockLegalGlass
+  suffix: Legal
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/legal.rsi
   - type: PaintableAirlock
     group: Glass

@@ -2,7 +2,7 @@
   parent: BasePlushie
   id: PlushieChiefMedicalOfficer
   name: chief medical officer plushie
-  description: A cute toy that resembles a worker in NanoTrasen-issued chief medical officer suit. Unfortunately, won\'t organise your med workflow.
+  description: A cute toy that resembles a worker in NanoTrasen-issued chief medical officer suit. Unfortunately, won't organise your med workflow.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
@@ -20,7 +20,7 @@
   parent: BasePlushie
   id: PlushieQuartermaster
   name: quartermaster plushie
-  description: A cute toy of a 100% real NanoTrasen worker in a full-body suit and a quartermaster outfit. Rest assured of it\'s loyalty to the company.
+  description: A cute toy of a 100% real NanoTrasen worker in a full-body suit and a quartermaster outfit. Rest assured of it's loyalty to the company.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
@@ -106,7 +106,7 @@
   parent: BasePlushie
   id: PlushieLizardQM
   name: lizardperson quartermaster plushie
-  description: A modification to the NanoTrasen-issued lizardperson plushie. Looks like it is wearing a quartermaster uniform. Say \"No\" to power positions racism.
+  description: A modification to the NanoTrasen-issued lizardperson plushie. Looks like it is wearing a quartermaster uniform. Say *No* to power positions racism.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi

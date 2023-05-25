@@ -187,6 +187,37 @@
 
 - type: entity
   parent: EncryptionKey
+  id: EncryptionKeyLegal
+  name: legal department encryption key
+  description: An encryption key used by the legal department.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Legal
+    defaultChannel: Legal
+  - type: Sprite
+    layers:
+    - state: crypt_gray
+    - state: law_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyLegalSecurity
+  name: legal-security encryption key
+  description: An encryption key used by the legal department to spy on the sec without any consequences.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Legal
+    - Security
+    defaultChannel: Legal
+  - type: Sprite
+    layers:
+    - state: crypt_gray
+    - state: lawsec_label
+
+- type: entity
+  parent: EncryptionKey
   id: EncryptionKeyService
   name: service encryption key
   description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.

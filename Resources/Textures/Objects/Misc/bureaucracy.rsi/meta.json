@@ -148,6 +148,9 @@
       "name": "paper_stamp-warden"
     },
     {
+      "name": "paper_stamp-legal"
+    },
+    {
       "name": "paper_stamp-generic"
     },
     {
@@ -289,6 +292,9 @@
     },
     {
       "name": "stamp-warden"
+    },
+    {
+      "name": "stamp-legal"
     },
     {
       "name": "clipboard-equipped-BELT",

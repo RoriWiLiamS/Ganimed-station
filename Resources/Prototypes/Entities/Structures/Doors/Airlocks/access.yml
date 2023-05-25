@@ -33,6 +33,14 @@
 
 - type: entity
   parent: Airlock
+  id: AirlockMaidLocked
+  suffix: Maid, Locked
+  components:
+  - type: AccessReader
+    access: [["Maid"]]
+
+- type: entity
+  parent: Airlock
   id: AirlockKitchenLocked
   suffix: Kitchen, Locked
   components:
@@ -89,6 +97,14 @@
 
 - type: entity
   parent: AirlockExternal
+  id: AirlockExternalLegalLocked
+  suffix: External, Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
+
+- type: entity
+  parent: AirlockExternal
   id: AirlockExternalAtmosphericsLocked
   suffix: External, Atmospherics, Locked
   components:
@@ -118,6 +134,14 @@
   components:
   - type: AccessReader
     access: [["Engineering"]]
+
+- type: entity
+  parent: AirlockLegal
+  id: AirlockLegalLocked
+  suffix: Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
 
 - type: entity
   parent: AirlockAtmospherics
@@ -243,6 +267,14 @@
 
 - type: entity
   parent: AirlockCommand
+  id: AirlockIAALocked
+  suffix: IAA, Locked
+  components:
+  - type: AccessReader
+    access: [["IAA"]]
+
+- type: entity
+  parent: AirlockCommand
   id: AirlockHeadOfPersonnelLocked
   suffix: HeadOfPersonnel, Locked
   components:
@@ -348,6 +380,14 @@
 
 - type: entity
   parent: AirlockExternalGlass
+  id: AirlockExternalGlassLegalLocked
+  suffix: External, Glass, Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
+
+- type: entity
+  parent: AirlockExternalGlass
   id: AirlockExternalGlassAtmosphericsLocked
   suffix: External, Glass, Atmospherics, Locked
   components:
@@ -385,6 +425,15 @@
   components:
   - type: AccessReader
     access: [["Engineering"]]
+
+- type: entity
+  parent: AirlockLegalGlass
+  id: AirlockLegalGlassLocked
+  suffix: Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
+
 
 - type: entity
   parent: AirlockAtmosphericsGlass
@@ -500,6 +549,14 @@
 
 - type: entity
   parent: AirlockCommandGlass
+  id: AirlockIAAGlassLocked
+  suffix: IAA, Locked
+  components:
+  - type: AccessReader
+    access: [["IAA"]]
+
+- type: entity
+  parent: AirlockCommandGlass
   id: AirlockHeadOfPersonnelGlassLocked
   suffix: HeadOfPersonnel, Locked
   components:
@@ -605,6 +662,22 @@
 
 - type: entity
   parent: AirlockMaint
+  id: AirlockMaintLegalLocked
+  suffix: Legal, Locked
+  components:
+  - type: AccessReader
+    access: [["Legal"]]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintIAALocked
+  suffix: IAA, Locked
+  components:
+  - type: AccessReader
+    access: [["IAA"]]
+
+- type: entity
+  parent: AirlockMaint
   id: AirlockMaintAtmoLocked
   suffix: Atmospherics, Locked
   components:
@@ -642,6 +715,14 @@
   components:
   - type: AccessReader
     access: [["Janitor"]]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintMaidLocked
+  suffix: Maid, Locked
+  components:
+  - type: AccessReader
+    access: [["Maid"]]
 
 - type: entity
   parent: AirlockMaint

@@ -11,3 +11,4 @@ chat-radio-security = Безопасность
 chat-radio-service = Сервис
 chat-radio-supply = Снабжение
 chat-radio-syndicate = Синдикат
+chat-radio-legal = Юридический

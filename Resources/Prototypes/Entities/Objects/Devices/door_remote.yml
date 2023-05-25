@@ -138,3 +138,19 @@
   - type: Access
     groups:
     - Engineering
+
+- type: entity
+  parent: DoorRemoteDefault
+  id: DoorRemoteLegal
+  name: legal door remote
+  components:
+  - type: Sprite
+    layers:
+    - state: door_remotebase
+    - state: door_remotelightscolour
+      color: "#50c89b"
+    - state: door_remotescreencolour
+      color: "#2d7258"
+  - type: Access
+    groups:
+    - Legal
