@@ -350,3 +350,30 @@
     state: bananium
   - type: Stack
     count: 1
+
+- type: entity
+  parent: MaterialBase
+  id: MaterialStone
+  name: stone
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Stone: 100
+  - type: Stack
+    stackType: Stone
+    count: 100
+  - type: Sprite
+    sprite: /Textures/Objects/Misc/monkeycube.rsi
+    state: stone
+    color: "#8A9A5B"
+
+- type: entity
+  parent: MaterialStone
+  id: MaterialStone1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
