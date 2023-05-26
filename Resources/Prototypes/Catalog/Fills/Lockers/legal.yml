@@ -41,7 +41,7 @@
       - id: ClothingUniformJumpsuitLawyerRed
         prob: 0.25
         orGroup: Suit
-      - id: ClothingUniformJumpsuittLawyerBlue
+      - id: ClothingUniformJumpsuitLawyerBlue
         prob: 0.25
         orGroup: Suit
       - id: ClothingUniformJumpsuitLawyerPurple
