@@ -366,7 +366,7 @@
     count: 100
   - type: Sprite
     sprite: /Textures/Objects/Misc/monkeycube.rsi
-    state: stone
+    state: cube
     color: "#8A9A5B"
 
 - type: entity

@@ -51,6 +51,7 @@
         - Sheet
         - RawMaterial
         - Ingot
+        - Stone
   - type: WiresPanel
   - type: Wires
     BoardName: "Autolathe"
@@ -674,3 +675,4 @@
         - IngotGold1
         - IngotSilver1
         - MaterialBananium1
+        - MaterialStone1

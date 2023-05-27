@@ -208,7 +208,7 @@
   - type: Stack
     stackType: StoneOre
   - type: Sprite
-    state: stone
+    state: uranium
   - type: Material
   - type: PhysicalComposition
     materialComposition:
