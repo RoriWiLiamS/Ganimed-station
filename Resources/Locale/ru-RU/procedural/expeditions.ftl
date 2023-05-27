@@ -28,6 +28,7 @@ salvage-expedition-difficulty-Minor = Невысокая
 salvage-expedition-difficulty-Moderate = Умеренная
 salvage-expedition-difficulty-Hazardous = Высокая
 salvage-expedition-difficulty-Extreme = Экстремальная
+salvage-expedition-not-all-present = Не все утилизаторы вернулись на борт шаттла!
 # Runner
 salvage-expedition-announcement-countdown-minutes =
     До окончания экспедиции осталась { $duration } { $duration ->
