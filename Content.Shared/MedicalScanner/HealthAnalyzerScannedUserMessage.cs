@@ -9,10 +9,14 @@ namespace Content.Shared.MedicalScanner;
 public sealed class HealthAnalyzerScannedUserMessage : BoundUserInterfaceMessage
 {
     public readonly EntityUid? TargetEntity;
+	public float Temperature;
+    public float BloodLevel;
 
-    public HealthAnalyzerScannedUserMessage(EntityUid? targetEntity)
+    public HealthAnalyzerScannedUserMessage(EntityUid? targetEntity, float temperature, float bloodLevel)
     {
         TargetEntity = targetEntity;
+		Temperature = temperature;
+        BloodLevel = bloodLevel;
     }
 }
 

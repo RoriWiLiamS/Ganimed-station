@@ -35,6 +35,8 @@ namespace Content.Client.HealthAnalyzer.UI
                 IReadOnlyDictionary<string, FixedPoint2> damagePerType = damageable.Damage.DamageDict;
 
                 text.Append($"{Loc.GetString("health-analyzer-window-entity-health-text", ("entityName", entityName))}\n");
+				text.Append(String.Format("Температура: {0:F1} °C\n", msg.Temperature - 273f));
+                text.Append(String.Format("Уровень крови: {0:F1} %\n", msg.BloodLevel * 100));
 
                 // Damage
                 text.Append($"\n{Loc.GetString("health-analyzer-window-entity-damage-total-text", ("amount", damageable.TotalDamage))}\n");
