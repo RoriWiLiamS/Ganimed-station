@@ -1,27 +1,4 @@
 Entries:
-- author: mhamster
-  changes:
-  - {message: Changed sleep action icon from egg to syndie pyjama, type: Tweak}
-  id: 3395
-  time: '2023-04-12T18:26:07.0000000+00:00'
-- author: PuroSlavKing
-  changes:
-  - {message: Added boxer spawnpoint., type: Add}
-  id: 3396
-  time: '2023-04-12T18:32:49.0000000+00:00'
-- author: PuroSlavKing
-  changes:
-  - {message: 'Fixed now the security cadet''s spawner has an icon not of a passenger,
-      but of a cadet (I just stuck the cadet badge next to the officer''s sprite)',
-    type: Fix}
-  id: 3397
-  time: '2023-04-12T18:33:19.0000000+00:00'
-- author: deltanedas
-  changes:
-  - {message: The Syndicate has started packaging its sinister pens in boxes for easier
-      identification by the end user., type: Tweak}
-  id: 3398
-  time: '2023-04-12T18:44:52.0000000+00:00'
 - author: Whisper
   changes:
   - {message: Increased passive blood recovery from 0.3u to 1u. This is added every
@@ -2914,3 +2891,23 @@ Entries:
   - {message: The Centcom scarf has been moved to the Centdrobe, type: Tweak}
   id: 3894
   time: '2023-05-29T04:34:45.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fixed cleanbots., type: Fix}
+  id: 3895
+  time: '2023-05-29T06:53:28.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Cap throwing scaling so bad mass values don't yeet you too far., type: Fix}
+  id: 3896
+  time: '2023-05-29T07:11:54.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fix landing pad clipping dungeons in some instances., type: Fix}
+  id: 3897
+  time: '2023-05-29T11:48:15.0000000+00:00'
+- author: PJB3005
+  changes:
+  - {message: Device network addresses now look prettier., type: Tweak}
+  id: 3898
+  time: '2023-05-29T14:56:31.0000000+00:00'
