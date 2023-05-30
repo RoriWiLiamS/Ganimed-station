@@ -1,0 +1,31 @@
+- type: job
+  id: Vip
+  name: job-name-vip
+  description: job-description-vip
+  playTimeTracker: JobVip
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Service
+      time: 3600 #1 hr
+  startingGear: PassengerGear
+  icon: "Person"
+  supervisors: job-supervisors-captain
+  access:
+  - Maintenance
+  - Bridge
+  - Service
+
+- type: startingGear
+  id: PassengerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBlack
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: ClearPDA
+    ears: ClothingHeadsetGrey
+    pocket1: WhiteCane
+  inhand:
+    right hand: BriefcaseBrownFilled
+  innerclothingskirt: ClothingUniformJumpskirtColorBlack
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

@@ -32,6 +32,7 @@
   - ServiceWorker
   - TechnicalAssistant
   - ResearchAssistant
+  - Vip
 
 - type: department
   id: Command
