@@ -12,7 +12,6 @@
   supervisors: job-supervisors-captain
   access:
   - Maintenance
-  - Bridge
   - Service
 
 - type: startingGear
