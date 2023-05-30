@@ -43,6 +43,7 @@ job-name-ertmedic = медик ОБР
 job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
+job-name-vip = VIP персона
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
@@ -86,6 +87,7 @@ JobSecurityOfficer = офицер СБ
 JobServiceWorker = сервисный работник
 JobStationEngineer = инженер
 JobTechnicalAssistant = технический ассистент
+JobVip = VIP персона
 JobWarden = смотритель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
