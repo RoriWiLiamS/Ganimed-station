@@ -127,9 +127,6 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
-  - type: ClothingGrantComponent
-    component:
-    - type: ShowJobInfo
     
 - type: entity
   parent: ClothingEyesBase
