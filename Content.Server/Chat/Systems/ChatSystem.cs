@@ -1,3 +1,4 @@
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using Content.Server.Administration.Logs;
@@ -12,6 +13,7 @@ using Content.Server.Station.Systems;
 using Content.Shared.ActionBlocker;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
+using Content.Shared.CollectiveMind;
 using Content.Shared.Database;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Inventory;
@@ -203,6 +205,9 @@ public sealed partial class ChatSystem : SharedChatSystem
             case InGameICChatType.Emote:
                 SendEntityEmote(source, message, range, nameOverride, hideLog);
                 break;
+            case InGameICChatType.CollectiveMind:
+                SendCollectiveMindChat(source, message, false);
+                break;
         }
     }
 
@@ -294,6 +299,56 @@ public sealed partial class ChatSystem : SharedChatSystem
     #endregion
 
     #region Private API
+
+    public void SendCollectiveMindChat(EntityUid source, string message, bool hideChat)
+    {
+        if (!TryComp<CollectiveMindComponent>(source, out var sourseCollectiveMindComp))
+            return;
+
+        var clients = Filter.Empty();
+        var mindQuery = EntityQueryEnumerator<CollectiveMindComponent, ActorComponent>();
+        while (mindQuery.MoveNext(out var uid, out var collectMindComp, out var actorComp))
+        {
+            if (collectMindComp.Channel == sourseCollectiveMindComp.Channel)
+            {
+                clients.AddPlayer(actorComp.PlayerSession);
+            }
+        }
+
+        var admins = _adminManager.ActiveAdmins
+            .Select(p => p.ConnectedClient);
+        string messageWrap;
+        string adminMessageWrap;
+
+        messageWrap = Loc.GetString("chat-manager-send-collective-mind-chat-wrap-message",
+            ("message", message),
+            ("channel", sourseCollectiveMindComp.Channel));
+
+        adminMessageWrap = Loc.GetString("chat-manager-send-collective-mind-chat-wrap-message-admin",
+            ("source", source),
+            ("message", message),
+            ("channel", sourseCollectiveMindComp.Channel));
+
+        _adminLogger.Add(LogType.Chat, LogImpact.Low, $"CollectiveMind chat from {ToPrettyString(source):Player}: {message}");
+
+        _chatManager.ChatMessageToManyFiltered(clients,
+            ChatChannel.CollectiveMind,
+            message,
+            messageWrap,
+            source,
+            hideChat,
+            true,
+            sourseCollectiveMindComp.ChannelColor);
+
+        _chatManager.ChatMessageToMany(ChatChannel.CollectiveMind,
+            message,
+            adminMessageWrap,
+            source,
+            hideChat,
+            true,
+            admins,
+            sourseCollectiveMindComp.ChannelColor);
+    }
 
     private void SendEntitySpeak(EntityUid source, string originalMessage, ChatTransmitRange range, string? nameOverride, bool hideLog = false)
     {
@@ -762,7 +817,8 @@ public enum InGameICChatType : byte
 {
     Speak,
     Emote,
-    Whisper
+    Whisper,
+    CollectiveMind
 }
 
 /// <summary>
