@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cev-eris at commit https://github.com/discordia-space/CEV-Eris/commit/a75dee2e6d236612dbd403dd5f8687ca930c01f1",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/tree/fb2d71495bfe81446159ef528534193d09dd8d34, sprite repaletted by Flareguy for space-station-14",
   "size": {
     "x": 32,
     "y": 32
@@ -9,9 +9,6 @@
   "states": [
     {
       "name": "icon"
-    },
-    {
-      "name": "icon-on"
     },
     {
       "name": "equipped-HELMET",
