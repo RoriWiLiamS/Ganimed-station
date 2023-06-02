@@ -198,26 +198,3 @@
   components:
   - type: Stack
     count: 1
-
-- type: entity
-  parent: OreBase
-  id: StoneOre
-  name: stone ore
-  suffix: Full
-  components:
-  - type: Stack
-    stackType: StoneOre
-  - type: Sprite
-    state: uranium
-  - type: Material
-  - type: PhysicalComposition
-    materialComposition:
-      Stone: 500
-
-- type: entity
-  parent: StoneOre
-  id: StoneOre1
-  suffix: Single
-  components:
-  - type: Stack
-    count: 1

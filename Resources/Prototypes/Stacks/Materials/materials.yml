@@ -55,9 +55,16 @@
   maxCount: 10
 
 - type: stack
+  id: SharpenedStone
+  name: stone
+  icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: sharpened_stone }
+  spawn: SharpenedStone1
+  maxCount: 30
+
+- type: stack
   id: Stone
   name: stone
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: stone }
-  spawn: MaterialStone
+  spawn: RawStone1
   maxCount: 30
 

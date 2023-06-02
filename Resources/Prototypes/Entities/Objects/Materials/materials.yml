@@ -353,8 +353,44 @@
 
 - type: entity
   parent: MaterialBase
-  id: MaterialStone
-  name: stone
+  id: SharpenedStone
+  name: sharpened stone
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      SharpenedStone: 100
+  - type: Stack
+    stackType: SharpenedStone
+    count: 30
+  - type: Sprite
+    sprite: /Textures/Objects/Misc/monkeycube.rsi
+    state: cube
+    color: "#8A9A5B"
+  - type: ItemCooldown
+  - type: Sharp
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 4
+        Blunt: 1
+  - type: Construction
+    graph: SharpenedStone
+    node: stone
+
+- type: entity
+  parent: SharpenedStone
+  id: SharpenedStone1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: MaterialBase
+  id: RawStone
+  name: raw stone
   suffix: Full
   components:
   - type: Material
@@ -363,15 +399,20 @@
       Stone: 100
   - type: Stack
     stackType: Stone
-    count: 100
+    count: 30
   - type: Sprite
     sprite: /Textures/Objects/Misc/monkeycube.rsi
     state: cube
     color: "#8A9A5B"
+  - type: ItemCooldown
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 4
 
 - type: entity
-  parent: MaterialStone
-  id: MaterialStone1
+  parent: RawStone
+  id: RawStone1
   suffix: Single
   components:
   - type: Stack

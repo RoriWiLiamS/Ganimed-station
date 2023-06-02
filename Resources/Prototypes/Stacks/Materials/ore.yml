@@ -47,10 +47,3 @@
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: bananium }
   spawn: BananiumOre1
   maxCount: 30
-
-- type: stack
-  id: StoneOre
-  name: stone ore
-  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: stone }
-  spawn: StoneOre1
-  maxCount: 30

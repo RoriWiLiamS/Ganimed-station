@@ -1,0 +1,13 @@
+- type: constructionGraph
+  id: SharpenedStone
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: stone
+          steps:
+            - material: Stone
+              amount: 3
+              doAfter: 4
+    - node: stone
+      entity: SharpenedStone1

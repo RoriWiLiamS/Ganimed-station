@@ -1,0 +1,12 @@
+- type: construction
+  name: заточенный камень
+  id: stone
+  graph: SharpenedStone
+  startNode: start
+  targetNode: stone
+  category: construction-category-weapons
+  description: Заточка камня
+  icon:
+    sprite: Objects/Materials/ore.rsi
+    state: stone
+  objectType: Item

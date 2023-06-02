@@ -1,0 +1,23 @@
+- type: entity
+  name: простой каменный топор
+  parent: BaseItem
+  id: SimpleStoneToolAxe
+  description: Первобытный каменный топор, сделаный из палки и камня.
+  components:
+  - type: Tag
+    tags:
+    - BotanyHatchet
+  - type: Sharp
+  - type: Sprite
+    sprite: Objects/Tools/Hydroponics/hatchet.rsi
+    state: icon
+    netsync: false
+  - type: ItemCooldown
+  - type: MeleeWeapon
+    attackRate: 0.75
+    damage:
+      types:
+        Slash: 5
+        Piercing: 5
+  - type: Item
+    sprite: Objects/Tools/Hydroponics/hatchet.rsi

@@ -1,0 +1,18 @@
+- type: entity
+  name: Raw Stone spawner
+  id: RawStoneSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: green
+        - sprite: /Textures/Objects/Materials/materials.rsi
+          state: stone
+    - type: RandomSpawner
+      rarePrototypes:
+        - SharpenedStone1
+      rareChance: 0.03
+      prototypes:
+        - RawStone1
+      chance: 0.8
+      offset: 0.2

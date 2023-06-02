@@ -27,11 +27,21 @@
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 200
+          damage: 800
+      - trigger:
+          !type:DamageTrigger
+          damage: 500
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
-
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              SharpenedStone1:
+                min: 0
+                max: 2
+              RawStone1:
+                min: 4
+                max: 13
 
 - type: entity
   id: BaseTree
@@ -70,13 +80,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 500
       behaviors:
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 300
       behaviors:
       - !type:PlaySoundBehavior
         sound:
