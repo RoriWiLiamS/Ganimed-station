@@ -31,3 +31,7 @@ chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {$message}
 
 chat-manager-dead-channel-name = DEAD
 chat-manager-admin-channel-name = ADMIN
+
+chat-manager-send-collective-mind-chat-wrap-message = {$channel} collective mind: {$message}
+chat-manager-send-collective-mind-chat-wrap-message-admin = {$source} ({$channel} collective mind): {$message}
+chat-manager-collective-mind-channel-name = collective mind

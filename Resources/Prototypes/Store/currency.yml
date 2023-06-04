@@ -1,7 +1,7 @@
 - type: currency
   id: Telecrystal
   displayName: store-currency-display-telecrystal
-  cash: 
+  cash:
     1: Telecrystal1
   canWithdraw: true
 
@@ -19,6 +19,11 @@
 - type: currency
   id: Points
   displayName: store-currency-display-points
+  canWithdraw: false
+
+- type: currency
+  id: StolenMutationPoint
+  displayName: store-currency-display-stolen-mutation-points
   canWithdraw: false
 
 #debug

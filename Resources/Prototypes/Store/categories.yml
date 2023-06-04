@@ -72,3 +72,8 @@
 - type: storeCategory
   id: ChangelingAbilities
   name: store-category-abilities
+#flesh cultist
+- type: storeCategory
+  id: FleshCultistAbilities
+  name: store-category-abilities
+
