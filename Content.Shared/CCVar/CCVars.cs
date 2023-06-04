@@ -564,7 +564,7 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<int> HudTheme =
-            CVarDef.Create("hud.theme", 0, CVar.ARCHIVE | CVar.CLIENTONLY);
+            CVarDef.Create("hud.theme", 1, CVar.ARCHIVE | CVar.CLIENTONLY);
 
         public static readonly CVarDef<bool> HudHeldItemShow =
             CVarDef.Create("hud.held_item_show", true, CVar.ARCHIVE | CVar.CLIENTONLY);
@@ -968,6 +968,45 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<int> WhitelistMaxPlayers =
             CVarDef.Create("whitelist.max_players", int.MaxValue, CVar.SERVERONLY);
+        /*
+         * Prime Whitelist
+         */
+
+        /// <summary>
+        ///     Controls whether the server will deny any players that are not whitelisted in the Prime DB.
+        /// </summary>
+        public static readonly CVarDef<bool> PrimelistEnabled =
+            CVarDef.Create("primelist.enabled", false, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     IP address of the Prime database server
+        /// </summary>
+        public static readonly CVarDef<string> PrimelistDatabaseIp =
+            CVarDef.Create("primelist.ip", string.Empty, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Port of the Prime database server
+        /// </summary>
+        public static readonly CVarDef<int> PrimelistDatabasePort =
+            CVarDef.Create("primelist.port", 3306, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Name of the Prime database server
+        /// </summary>
+        public static readonly CVarDef<string> PrimelistDatabaseName =
+            CVarDef.Create("primelist.database", string.Empty, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Username for the Prime database server
+        /// </summary>
+        public static readonly CVarDef<string> PrimelistDatabaseUsername =
+            CVarDef.Create("primelist.username", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+
+        /// <summary>
+        ///     Password for the Prime database server
+        /// </summary>
+        public static readonly CVarDef<string> PrimelistDatabasePassword =
+            CVarDef.Create("primelist.password", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
         /*
          * VOTE
@@ -1288,6 +1327,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> AfkTime =
             CVarDef.Create("afk.time", 60f, CVar.SERVERONLY);
+
+        public static readonly CVarDef<bool> AfkTimeKickEnabled =
+            CVarDef.Create("afk.time_kick_enabled", true, CVar.SERVERONLY);
+
+        public static readonly CVarDef<float> AfkTimeKick =
+            CVarDef.Create("afk.time_kick", 600f, CVar.SERVERONLY);
 
         /*
          * IC

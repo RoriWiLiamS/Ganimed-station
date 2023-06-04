@@ -1,10 +1,8 @@
 marking-ArachnidAppendagesDefault = Придатки (Длинные)
 marking-ArachnidAppendagesDefault-long = Придаток
-marking-ArachnidAppendagesDefault-long = Придатки
 marking-ArachnidAppendagesDefault-web = Паутина
 marking-ArachnidAppendagesSharp = Придатки (Острые)
 marking-ArachnidAppendagesSharp-sharp = Придаток
-marking-ArachnidAppendagesSharp-sharp = Придатки
 marking-ArachnidAppendagesSharp-web = Паутина
 marking-ArachnidAppendagesZigZag = Придатки (Зигзаг)
 marking-ArachnidAppendagesZigZag-zigzag = Придаток

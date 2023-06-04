@@ -159,7 +159,7 @@
   components:
   - type: Construction
     graph: ReinforcedShiv
-    node: icon 
+    node: icon
     size: 2
     state: icon
   - type: MeleeWeapon
@@ -180,7 +180,7 @@
   components:
   - type: Construction
     graph: PlasmaShiv
-    node: icon 
+    node: icon
   - type: MeleeWeapon
     attackRate: 1.5
     damage:
@@ -199,7 +199,7 @@
   components:
   - type: Construction
     graph: UraniumShiv
-    node: icon 
+    node: icon
   - type: MeleeWeapon
     attackRate: 1.5
     damage:

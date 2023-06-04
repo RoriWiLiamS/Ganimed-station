@@ -380,6 +380,50 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.ToTable("connection_log", (string)null);
                 });
 
+            modelBuilder.Entity("Content.Server.Database.DiscordPlayer", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("discord_players_id");
+
+                    b.Property<string>("CKey")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("ckey");
+
+                    b.Property<string>("DiscordId")
+                        .HasColumnType("TEXT")
+                        .HasColumnName("discord_id");
+
+                    b.Property<string>("DiscordName")
+                        .HasColumnType("TEXT")
+                        .HasColumnName("discord_name");
+
+                    b.Property<string>("HashKey")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("hash_key");
+
+                    b.Property<Guid>("SS14Id")
+                        .IsUnicode(true)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("ss14_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_discord_players");
+
+                    b.HasAlternateKey("SS14Id")
+                        .HasName("ak_discord_players_ss14_id");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("CKey", "DiscordId");
+
+                    b.ToTable("discord_players", (string)null);
+                });
+
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
@@ -615,6 +659,11 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("species");
+
+                    b.Property<string>("Voice")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("voice");
 
                     b.HasKey("Id")
                         .HasName("PK_profile");

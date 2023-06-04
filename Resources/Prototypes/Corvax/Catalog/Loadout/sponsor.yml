@@ -1,0 +1,102 @@
+# OopsieDoopsie
+- type: loadout
+  id: ClothingOuterAtmosianBomberJacketLoadout
+  entity: ClothingOuterAtmosianBomberJacket
+
+- type: loadout
+  id: ClothingMaskGasAtmosianLoadout
+  entity: ClothingMaskGasAtmosian
+
+- type: loadout
+  id: ClothingCloakAtmosianLoadout
+  entity: ClothingCloakAtmosian
+
+# Fezory
+- type: loadout
+  id: ClothingMaskSkullLoadout
+  entity: ClothingMaskSkull
+
+- type: loadout
+  id: ClothingCloakGamerLoadout
+  entity: ClothingCloakGamer
+
+- type: loadout
+  id: ClothingUniformJumpsuitSkeletonLoadout
+  entity: ClothingUniformJumpsuitSkeleton
+
+# NEKISH
+- type: loadout
+  id: OldHoSJumpsuitLoadout
+  entity: ClothingUniformJumpsuitHoSOld
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSCoatLoadout
+  entity: ClothingOuterCoatHoSOvercoat
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSCapLoadout
+  entity: ClothingHeadHatCapHoS
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSGlovesLoadout
+  entity: ClothingHandsGlovesLeatherHoS
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSBeltLoadout
+  entity: ClothingBeltHoS
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSBackpackLoadout
+  entity: ClothingBackpackSatchelHoS
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSBootsLoadout
+  entity: ClothingShoesBootsJack
+  whitelistJobs: [HeadOfSecurity]
+
+- type: loadout
+  id: OldHoSHeadsetLoadout
+  entity: ClothingHeadsetSecurity
+  whitelistJobs: [HeadOfSecurity]
+
+# ken41k
+- type: loadout
+  id: DivineWatchLoadout
+  entity: ClothingHandsWatchDivine
+
+# jesuisunfou
+- type: loadout
+  id: OldUSSPGlovesLoadout
+  entity: ClothingHandsGlovesLeatherUSSPBlack
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+- type: loadout
+  id: OldUSSPCapLoadout
+  entity: ClothingHeadHatCapUSSPBlack
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+- type: loadout
+  id: OldUSSPOvercoatLoadout
+  entity: ClothingOuterCoatUSSPOvercoatBlack
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+- type: loadout
+  id: OldUSSPJumpsuitLoadout
+  entity: ClothingUniformJumpsuitUSSPBlack
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+- type: loadout
+  id: OldUSSPShoesLoadout
+  entity: ClothingShoesUSSPBlack
+  whitelistJobs: [HeadOfSecurity, IAA]
+
+# ondapapers
+- type: loadout
+  id: FancyCrownLoadout
+  entity: ClothingHeadHatFancyCrown

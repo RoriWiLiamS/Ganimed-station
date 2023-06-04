@@ -1,4 +1,4 @@
-using Content.Shared.Security;
+using Content.Shared.Preferences;
 using Robust.Shared.Enums;
 using Robust.Shared.Serialization;
 
@@ -69,4 +69,9 @@ public sealed class GeneralStationRecord
     /// </summary>
     [ViewVariables]
     public string? DNA;
+
+    /// <sumary>
+    ///     HumanoidCharacterProfile
+    /// </sumary>
+    [ViewVariables] public HumanoidCharacterProfile? Profile;
 }

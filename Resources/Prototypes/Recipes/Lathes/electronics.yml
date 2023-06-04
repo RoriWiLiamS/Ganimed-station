@@ -36,7 +36,7 @@
   completetime: 2
   materials:
      Steel: 50
-     Plastic: 300
+     Plastic: 50
 
 - type: latheRecipe
   id: AirAlarmElectronics

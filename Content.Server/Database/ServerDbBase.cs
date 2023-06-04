@@ -177,6 +177,12 @@ namespace Content.Server.Database
             if (Enum.TryParse<Gender>(profile.Gender, true, out var genderVal))
                 gender = genderVal;
 
+            // Corvax-TTS-Start
+            var voice = profile.Voice;
+            if (voice == String.Empty)
+                voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+            // Corvax-TTS-End
+
             // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
             var markingsRaw = profile.Markings?.Deserialize<List<string>>();
 
@@ -197,6 +203,7 @@ namespace Content.Server.Database
                 profile.CharacterName,
                 profile.FlavorText,
                 profile.Species,
+                voice, // Corvax-TTS
                 profile.Age,
                 sex,
                 gender,
@@ -233,6 +240,7 @@ namespace Content.Server.Database
             profile.CharacterName = humanoid.Name;
             profile.FlavorText = humanoid.FlavorText;
             profile.Species = humanoid.Species;
+            profile.Voice = humanoid.Voice; // Corvax-TTS
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
             profile.Gender = humanoid.Gender.ToString();
@@ -1007,6 +1015,35 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             note.LastEditedById = editedBy;
             note.LastEditedAt = editedAt;
 
+            await db.DbContext.SaveChangesAsync();
+        }
+
+        #endregion
+
+        #region Discord_SS220
+
+        /// <summary>
+        /// Уже прошел проверку или нет
+        /// </summary>
+        /// <param name="playerId">Player GUID</param>
+        public async Task<(bool, DiscordPlayer?)> IsValidateDiscord(Guid playerId)
+        {
+            await using var db = await GetDb();
+
+            var discordPlayer = await db.DbContext.DiscordPlayers.AsNoTracking().SingleOrDefaultAsync(p => p.SS14Id == playerId);
+
+            if (discordPlayer == null)
+                return (false, null);
+            if (!string.IsNullOrEmpty(discordPlayer.DiscordId))
+                return (true, null);
+
+            return (false, discordPlayer);
+        }
+
+        public async Task InsertDiscord(DiscordPlayer discordPlayer)
+        {
+            await using var db = await GetDb();
+            db.DbContext.DiscordPlayers.Add(discordPlayer);
             await db.DbContext.SaveChangesAsync();
         }
 

@@ -1,23 +1,20 @@
-cargo-gifts-event-announcement = Поздравляем! Компания { $sender } приняла решение отправить { $description } в { $dest } станции. Ищите презент в следующем грузовом отправлении.
-cargo-gift-default-description = Пачка презентов
-cargo-gift-default-sender = НаноТрайзен
-cargo-gift-default-dest = Грузовой департамент.
-
-cargo-gift-dest-bar = бар
-cargo-gift-dest-eng = Инженерный отдел
-cargo-gift-dest-supp = Грузовой отдел
-cargo-gift-dest-janitor = Сервисный отдел
-cargo-gift-dest-med = Медицинский отдел
-cargo-gift-dest-sec = Отдел безопасности
-
-cargo-gift-pizza-small = Набор "Небольшая вечеринка с пиццей"
-cargo-gift-pizza-large = Набор "Большая вечеринка с пиццей"
-
-cargo-gift-eng = Ремонтные материалы
-cargo-gift-vending = Заправку для торговых автоматов
-cargo-gift-cleaning = Чистящее оборудование
-cargo-gift-medical-supply = Медикаменты
-cargo-gift-space-protection = Снаряжение от космических опасностей
-cargo-gift-fire-protection = Снаряжение для борьбы с огнем
-cargo-gift-security-guns = Летальное оружие
-cargo-gift-security-riot = Анти-бунт снаряжение
+cargo-gifts-event-announcement = Поздравляем! { $sender } решили отправить { $description } { $dest } станции. Всё прибудет со следующей партией груза.
+cargo-gift-default-description = набор подарков
+cargo-gift-default-sender = Nanotrasen
+cargo-gift-default-dest = отделу снабжения
+cargo-gift-dest-bar = бару
+cargo-gift-dest-eng = инженерному отделу
+cargo-gift-dest-supp = отделу снабжения
+cargo-gift-dest-janitor = сервисному отделу
+cargo-gift-dest-med = медицинскому отделу
+cargo-gift-dest-sec = службе безопасности
+cargo-gift-pizza-small = маленький набор пицц
+cargo-gift-pizza-large = большой набор пицц
+cargo-gift-eng = ремонтные материалы
+cargo-gift-vending = наборы пополнений торгоматов
+cargo-gift-cleaning = уборочное снаряжение
+cargo-gift-medical-supply = медицинские припасы
+cargo-gift-space-protection = средства защиты от космоса
+cargo-gift-fire-protection = средства защиты от огня
+cargo-gift-security-guns = летальное оружие
+cargo-gift-security-riot = нелетальное снаряжение

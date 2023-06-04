@@ -9,5 +9,3 @@ store-currency-display-debugdollar =
     }
 store-currency-display-telecrystal = ТК
 store-currency-display-stolen-essence = Украденная эссенция
-
-store-currency-display-points = Очки

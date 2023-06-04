@@ -7,7 +7,6 @@ zombie-healing = Вы ощущаете шевеление в своей плот
 zombie-infection-warning = Вы чувствуете, как зомби-вирус берёт верх
 zombie-infection-underway = Ваша кровь начинает сгущаться
 zombie-alone = Вы чувствуете себя совершенно одиноким.
-zombie-alone = Вы чувствуете себя совершенно одиноким.
 zombie-round-end-initial-count =
     { $initialCount ->
         [one] Единственным нулевым пациентом был:
