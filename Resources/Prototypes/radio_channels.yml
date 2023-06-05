@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Common
   name: chat-radio-common
-  keycode: ";"
+  keycode: ":"
   frequency: 1459
   color: "#32cd32"
 
 - type: radioChannel
   id: CentCom
   name: chat-radio-centcom
-  keycode: 'ц' # Corvax-Localization
+  keycode: 'ц' # Ganimed-Localization
   frequency: 1337
   color: "#2681a5"
   longRange: true
@@ -16,56 +16,56 @@
 - type: radioChannel
   id: Command
   name: chat-radio-command
-  keycode: 'к' # Corvax-Localization
+  keycode: 'к' # Ganimed-Localization
   frequency: 1353
   color: "#fcdf03"
 
 - type: radioChannel
   id: Engineering
   name: chat-radio-engineering
-  keycode: 'и' # Corvax-Localization
+  keycode: 'и' # Ganimed-Localization
   frequency: 1357
   color: "#f37746"
 
 - type: radioChannel
   id: Medical
   name: chat-radio-medical
-  keycode: 'м' # Corvax-Localization
+  keycode: 'м' # Ganimed-Localization
   frequency: 1355
   color: "#57b8f0"
 
 - type: radioChannel
   id: Science
   name: chat-radio-science
-  keycode: 'н' # Corvax-Localization
+  keycode: 'н' # Ganimed-Localization
   frequency: 1351
   color: "#c68cfa"
 
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'о' # Corvax-Localization
+  keycode: 'о' # Ganimed-Localization
   frequency: 1359
   color: "#dd3535"
 
 - type: radioChannel
   id: Service
   name: chat-radio-service
-  keycode: 'с' # Corvax-Localization
+  keycode: 'с' # Ganimed-Localization
   frequency: 1349
   color: "#6ca729"
 
 - type: radioChannel
   id: Supply
   name: chat-radio-supply
-  keycode: 'п' # Corvax-Localization
+  keycode: 'п' # Ganimed-Localization
   frequency: 1347
   color: "#b88646"
 
 - type: radioChannel
   id: Syndicate
   name: chat-radio-syndicate
-  keycode: 'т' # Corvax-Localization
+  keycode: 'т' # Ganimed-Localization
   frequency: 1213
   color: "#8f4a4b"
   longRange: true
